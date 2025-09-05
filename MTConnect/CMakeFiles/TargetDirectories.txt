@@ -1,0 +1,3 @@
+/home/ubuntu/normal/MTConnect/CMakeFiles/MTConnect.dir
+/home/ubuntu/normal/MTConnect/CMakeFiles/edit_cache.dir
+/home/ubuntu/normal/MTConnect/CMakeFiles/rebuild_cache.dir

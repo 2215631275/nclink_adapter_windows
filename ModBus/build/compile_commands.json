@@ -1,0 +1,140 @@
+[
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ActionListener.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ActionListener.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ActionListener.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ActionListener.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/CallBack.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/CallBack.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/CallBack.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/CallBack.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/Config.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/Config.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/Config.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/Config.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/DeviceModel.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/DeviceModel.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/DeviceModel.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/DeviceModel.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ErrorReason.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ErrorReason.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ErrorReason.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ErrorReason.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ModbusAdapter.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ModbusAdapter.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ModbusAdapter.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ModbusAdapter.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ModbusInterface.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ModbusInterface.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ModbusInterface.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ModbusInterface.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ParseXmlStream.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ParseXmlStream.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ParseXmlStream.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ParseXmlStream.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ProbeQueryRequest.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProbeQueryRequest.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProbeQueryRequest.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ProbeQueryRequest.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ProbeSetRequest.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProbeSetRequest.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProbeSetRequest.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ProbeSetRequest.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ProbeVersionResponse.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProbeVersionResponse.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProbeVersionResponse.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ProbeVersionResponse.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/ProcessJsonData.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProcessJsonData.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/ProcessJsonData.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/ProcessJsonData.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/QueryRequest.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/QueryRequest.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/QueryRequest.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/QueryRequest.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/RegisterResponse.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/RegisterResponse.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/RegisterResponse.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/RegisterResponse.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/Sample.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/Sample.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/Sample.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/Sample.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/SetRequest.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/SetRequest.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/SetRequest.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/SetRequest.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/Utils.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/Utils.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/Utils.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/Utils.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/main.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/main.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/main.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/src/pcap_to_flow.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/pcap_to_flow.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/src/pcap_to_flow.cpp",
+  "output": "CMakeFiles/ModBus.dir/src/pcap_to_flow.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/c++.exe  @CMakeFiles/ModBus.dir/includes_CXX.rsp -g -o CMakeFiles/ModBus.dir/thirdparty/pugixml/pugixml.cpp.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/pugixml/pugixml.cpp\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/pugixml/pugixml.cpp",
+  "output": "CMakeFiles/ModBus.dir/thirdparty/pugixml/pugixml.cpp.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/cc  -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/include\" -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty\" -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/ndpi/include\"  -o CMakeFiles/ModBus.dir/thirdparty/modbuslib/modbus-data.c.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/modbuslib/modbus-data.c\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/modbuslib/modbus-data.c",
+  "output": "CMakeFiles/ModBus.dir/thirdparty/modbuslib/modbus-data.c.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/cc  -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/include\" -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty\" -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/ndpi/include\"  -o CMakeFiles/ModBus.dir/thirdparty/modbuslib/modbus-tcp.c.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/modbuslib/modbus-tcp.c\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/modbuslib/modbus-tcp.c",
+  "output": "CMakeFiles/ModBus.dir/thirdparty/modbuslib/modbus-tcp.c.obj"
+},
+{
+  "directory": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build",
+  "command": "C:/cygwin64/bin/cc  -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/include\" -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty\" -I\"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/ndpi/include\"  -o CMakeFiles/ModBus.dir/thirdparty/modbuslib/modbus.c.obj -c \"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/modbuslib/modbus.c\"",
+  "file": "D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/modbuslib/modbus.c",
+  "output": "CMakeFiles/ModBus.dir/thirdparty/modbuslib/modbus.c.obj"
+}
+]

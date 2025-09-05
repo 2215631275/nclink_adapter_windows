@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<MThings>
+	<PORT_LIST>
+		<COM Name="COM3" Remarks="" Baund="9600" Parity="0" StopBit="0" DataBit="0" FlowCtrl="0" TransMode="0" CharType="0" BreakTime="10" />
+		<COM Name="COM4" Remarks="" Baund="9600" Parity="0" StopBit="0" DataBit="0" FlowCtrl="0" TransMode="0" CharType="0" BreakTime="10" />
+		<NET Name="NET000" Remarks="" DesIP="127.0.0.1" LocalPortID="0" LocalIP="" SessionKey="" DesPortID="502" LinkMode="0" LinkResetTime="0" LinkHoldTime="6000" TransMode="2" CharType="0" MaxAsynNum="15" />
+		<NET Name="NET001" Remarks="" DesIP="127.0.0.1" LocalPortID="502" LocalIP="" SessionKey="" DesPortID="61298" LinkMode="1" LinkResetTime="0" LinkHoldTime="6000" TransMode="2" CharType="0" MaxAsynNum="15" />
+	</PORT_LIST>
+	<SIGNT SYS_DATA="" ALARM="" HISDATA="" />
+	<HISDATA />
+	<ALARM_LIST>
+		<TYPELIST />
+	</ALARM_LIST>
+	<SYS_DATA Title="双击这里开始..." BackColor="#ffffff" width="1920" hight="930" PicPath="" />
+	<DEVICE_LIST>
+		<DEVICE ID="1" Name="[M]NET000-001" DeviceType="1" BindMode="0" BindDeviceID="0" Addr="1" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="0" BathWriteMode="0">
+			<PORTS>
+				<NET000 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="测试线圈数据BIT1" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="100" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="1" Coef_c="1" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="测试线圈数据BIT2" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="101" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.001" Coef_c="1" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="测试线圈数据BIT3" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="1" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="测试线圈数据BIT4" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="103" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="测试线圈数据BIT5" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="104" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="1" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="105" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="106" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="107" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="108" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="10" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="109" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="11" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="110" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="12" Name="测试数据BIT2" BLOCK="1" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="100" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="13" Name="测试数据1(RW)" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="100" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="14" Name="测试数据2(RW)" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="101" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="15" Name="测试数据3(RW)" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="102" Gain="0.01" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="0" Coef_b="100" Coef_c="12" Coef_d="" Coef_e="0" ResetStep="1" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="16" Name="测试数据4(RW)" BLOCK="2" PrtcTYPE="0" PointNum="0" Unit="--" ShowType="0" Addr="103" Gain="0.001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="2" TimeBngrWay="1" Coef_a="6" Coef_b="6" Coef_c="0" Coef_d="12" Coef_e="0" ResetStep="12" XInvl="10" MaxRadom="0.20000000000000001" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="17" Name="--" BLOCK="2" PrtcTYPE="2" PointNum="0" Unit="--" ShowType="0" Addr="105" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="18" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="200" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="1" Coef_b="0.001" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="100" MaxRadom="0" MinRadom="0" MaxValue="6" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="19" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="201" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="20" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="202" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="21" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="203" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="22" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="204" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="23" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="205" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="24" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="206" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="25" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="207" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="26" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="208" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="27" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="209" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="28" Name="测试数据5(RO)" BLOCK="3" PrtcTYPE="2" PointNum="0" Unit="--" ShowType="0" Addr="100" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="20" Coef_b="6" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="29" Name="测试数据6(RO)" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="3" Addr="102" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="30" Name="寄存器位数据1" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="104" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="1" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="1" Coef_b="0.1" Coef_c="0" Coef_d="0.1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="31" Name="寄存器位数据2" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="104" Gain="1" Offset="0" Size="2" BitOffset="1" BitNum="1" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.2" Coef_c="1" Coef_d="0.2" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+		<DEVICE ID="2" Name="[S]NET001-001" DeviceType="2" BindMode="0" BindDeviceID="0" Addr="1" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="0" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="0" BathWriteMode="0">
+			<PORTS>
+				<NET001 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="测试线圈数据BIT1" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="100" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.001" Coef_c="1" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="测试线圈数据BIT2" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="101" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.001" Coef_c="1" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="测试线圈数据BIT3" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="1" Coef_b="0.001" Coef_c="0" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="测试线圈数据BIT4" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="103" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.001" Coef_c="1" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="测试线圈数据BIT5" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="104" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="1" Coef_b="0.001" Coef_c="0" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="105" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="106" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="107" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="108" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="10" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="109" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="11" Name="--" BLOCK="0" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="110" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="1" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="1">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="12" Name="测试数据BIT2" BLOCK="1" PrtcTYPE="4" PointNum="0" Unit="--" ShowType="1" Addr="100" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="1" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="13" Name="测试数据1(RW)" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="100" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="14" Name="测试数据2(RW)" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="101" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="15" Name="测试数据3(RW)" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="102" Gain="0.01" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="0" Coef_b="100" Coef_c="12" Coef_d="" Coef_e="0" ResetStep="1" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="16" Name="测试数据4(RW)" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="103" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="1" Coef_a="12" Coef_b="0.001" Coef_c="0" Coef_d="0.002" Coef_e="0" ResetStep="12" XInvl="10" MaxRadom="0.20000000000000001" MinRadom="0" MaxValue="5" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="17" Name="--" BLOCK="2" PrtcTYPE="2" PointNum="0" Unit="--" ShowType="0" Addr="105" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="22.932" Coef_b="0.002" Coef_c="0" Coef_d="0.009" Coef_e="0" ResetStep="0" XInvl="30" MaxRadom="0" MinRadom="0" MaxValue="10" MinValue="1" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="18" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="200" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="1" Coef_b="0.001" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="100" MaxRadom="0" MinRadom="0" MaxValue="6" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="19" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="201" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="20" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="202" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="21" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="203" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="22" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="204" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="23" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="205" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="24" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="206" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="25" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="207" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="26" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="208" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="27" Name="--" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="0" Addr="209" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="28" Name="测试数据5(RO)" BLOCK="3" PrtcTYPE="2" PointNum="0" Unit="--" ShowType="0" Addr="100" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="20" Coef_b="6" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="29" Name="测试数据6(RO)" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="3" Addr="102" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="30" Name="寄存器位数据1" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="104" Gain="1" Offset="0" Size="2" BitOffset="0" BitNum="1" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="1" Coef_b="0.1" Coef_c="0" Coef_d="0.1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="31" Name="寄存器位数据2" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="104" Gain="1" Offset="0" Size="2" BitOffset="1" BitNum="1" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.2" Coef_c="1" Coef_d="0.2" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+	</DEVICE_LIST>
+</MThings>

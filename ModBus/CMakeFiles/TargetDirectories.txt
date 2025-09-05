@@ -1,0 +1,3 @@
+/home/ubuntu/normal/ModBus/CMakeFiles/ModBus.dir
+/home/ubuntu/normal/ModBus/CMakeFiles/edit_cache.dir
+/home/ubuntu/normal/ModBus/CMakeFiles/rebuild_cache.dir

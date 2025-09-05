@@ -1,0 +1,8 @@
+{
+    
+    "Network_interface":4,
+    "using_invalid": 1,
+    "valid_labels":["Modbus","FINS","EthernetIP","s7comm"],
+    "invalid_labels":[]
+
+}

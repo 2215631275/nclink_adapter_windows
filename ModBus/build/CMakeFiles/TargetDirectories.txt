@@ -1,0 +1,3 @@
+D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build/CMakeFiles/ModBus.dir
+D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build/CMakeFiles/ALL_BUILD.dir
+D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/build/CMakeFiles/ZERO_CHECK.dir

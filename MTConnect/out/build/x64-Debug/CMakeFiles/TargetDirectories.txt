@@ -1,0 +1,3 @@
+D:/nc-link-adapter_with_ca_windows/MTConnect/out/build/x64-Debug/CMakeFiles/MTConnect.dir
+D:/nc-link-adapter_with_ca_windows/MTConnect/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/nc-link-adapter_with_ca_windows/MTConnect/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

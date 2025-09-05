@@ -1,0 +1,621 @@
+﻿2024-01-12 18:51:03.179 DEBUG [8650] [OPCUAAdapter::init@116] UA_Client_connect error,return code :BadTimeout
+2024-01-12 18:55:44.995 DEBUG [8862] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 18:55:44.996 DEBUG [8862] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 18:55:44.996 DEBUG [8862] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 18:55:44.997 DEBUG [8862] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:55:44.999 DEBUG [8862] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:55:44.999 DEBUG [8862] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 18:55:45.000 DEBUG [8862] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:55:45.000 DEBUG [8862] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 18:55:45.001 DEBUG [8862] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 18:55:45.002 DEBUG [8862] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 18:55:45.105 DEBUG [8864] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 18:55:45.105 DEBUG [8862] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 18:55:45.106 DEBUG [8862] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 18:55:45.106 DEBUG [8864] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 18:55:45.106 DEBUG [8862] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 18:55:45.106 DEBUG [8862] [OPCUAAdapter::init@222] Sample started
+2024-01-12 18:55:45.106 DEBUG [8862] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 18:55:45.106 DEBUG [8864] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:55:45.107 DEBUG [8864] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:55:45.107 DEBUG [8864] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 18:55:45.107 DEBUG [8864] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:55:45.107 DEBUG [8864] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:55:45.107 DEBUG [8864] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 18:55:45.108 DEBUG [8864] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:55:45.108 DEBUG [8864] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:55:45.108 DEBUG [8864] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 18:55:45.108 DEBUG [8864] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:55:45.108 DEBUG [8864] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:55:45.108 DEBUG [8864] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 18:55:45.109 DEBUG [8864] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:55:45.109 DEBUG [8864] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:55:45.109 DEBUG [8864] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 18:55:45.109 DEBUG [8864] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:55:45.109 DEBUG [8864] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:56:22.963 DEBUG [8868] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 18:56:22.963 DEBUG [8868] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 18:56:22.963 DEBUG [8868] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 18:56:22.970 DEBUG [8868] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:56:22.972 DEBUG [8868] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:56:22.972 DEBUG [8868] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 18:56:22.974 DEBUG [8868] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:56:22.975 DEBUG [8868] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 18:56:22.975 DEBUG [8868] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 18:56:22.976 DEBUG [8868] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 18:56:23.178 DEBUG [8868] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 18:56:23.179 DEBUG [8868] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 18:56:23.179 DEBUG [8870] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 18:56:23.179 DEBUG [8868] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 18:56:23.179 DEBUG [8868] [OPCUAAdapter::init@222] Sample started
+2024-01-12 18:56:23.179 DEBUG [8868] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 18:56:23.180 DEBUG [8870] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 18:56:23.180 DEBUG [8870] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:56:23.180 DEBUG [8870] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:56:23.181 DEBUG [8870] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 18:56:23.181 DEBUG [8870] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:56:23.181 DEBUG [8870] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:56:23.181 DEBUG [8870] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 18:56:23.182 DEBUG [8870] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:56:23.182 DEBUG [8870] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:56:23.182 DEBUG [8870] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 18:56:23.182 DEBUG [8870] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:56:23.183 DEBUG [8870] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:56:23.183 DEBUG [8870] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 18:56:23.183 DEBUG [8870] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:56:23.183 DEBUG [8870] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:56:23.183 DEBUG [8870] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 18:56:23.184 DEBUG [8870] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:56:23.184 DEBUG [8870] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:16.400 DEBUG [8873] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 18:57:16.400 DEBUG [8873] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 18:57:16.400 DEBUG [8873] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 18:57:16.401 DEBUG [8873] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:16.403 DEBUG [8873] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:16.403 DEBUG [8873] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 18:57:16.404 DEBUG [8873] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:16.404 DEBUG [8873] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 18:57:16.405 DEBUG [8873] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 18:57:16.406 DEBUG [8873] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 18:57:16.607 DEBUG [8873] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 18:57:16.607 DEBUG [8873] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 18:57:16.607 DEBUG [8875] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 18:57:16.608 DEBUG [8873] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 18:57:16.608 DEBUG [8873] [OPCUAAdapter::init@222] Sample started
+2024-01-12 18:57:16.608 DEBUG [8873] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 18:57:16.608 DEBUG [8875] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 18:57:16.609 DEBUG [8875] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:16.609 DEBUG [8875] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:16.609 DEBUG [8875] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 18:57:16.609 DEBUG [8875] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:16.609 DEBUG [8875] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:16.610 DEBUG [8875] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 18:57:16.610 DEBUG [8875] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:57:16.610 DEBUG [8875] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:57:16.610 DEBUG [8875] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 18:57:16.610 DEBUG [8875] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:16.610 DEBUG [8875] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:16.611 DEBUG [8875] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 18:57:16.611 DEBUG [8875] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:57:16.611 DEBUG [8875] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:57:16.611 DEBUG [8875] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 18:57:16.611 DEBUG [8875] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:16.611 DEBUG [8875] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:30.399 DEBUG [8878] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 18:57:30.399 DEBUG [8878] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 18:57:30.399 DEBUG [8878] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 18:57:30.401 DEBUG [8878] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:30.403 DEBUG [8878] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:30.403 DEBUG [8878] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 18:57:30.404 DEBUG [8878] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:30.404 DEBUG [8878] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 18:57:30.405 DEBUG [8878] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 18:57:30.406 DEBUG [8878] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 18:57:30.409 DEBUG [8880] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 18:57:30.409 DEBUG [8878] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 18:57:30.409 DEBUG [8878] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 18:57:30.409 DEBUG [8880] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 18:57:30.409 DEBUG [8878] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 18:57:30.409 DEBUG [8878] [OPCUAAdapter::init@222] Sample started
+2024-01-12 18:57:30.409 DEBUG [8880] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:30.409 DEBUG [8878] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 18:57:30.410 DEBUG [8880] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:30.410 DEBUG [8880] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 18:57:30.410 DEBUG [8880] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:30.410 DEBUG [8880] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:30.410 DEBUG [8880] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 18:57:30.410 DEBUG [8880] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:57:30.411 DEBUG [8880] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 18:57:30.412 DEBUG [8880] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:30.412 DEBUG [8880] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:47.911 DEBUG [8882] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 18:57:47.912 DEBUG [8882] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 18:57:47.912 DEBUG [8882] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 18:57:47.913 DEBUG [8882] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:47.915 DEBUG [8882] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:47.915 DEBUG [8882] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 18:57:47.917 DEBUG [8882] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 18:57:47.917 DEBUG [8882] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 18:57:47.918 DEBUG [8882] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 18:57:47.919 DEBUG [8882] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 18:57:47.921 DEBUG [8884] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 18:57:47.922 DEBUG [8882] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 18:57:47.922 DEBUG [8882] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 18:57:47.922 DEBUG [8884] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 18:57:47.922 DEBUG [8882] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 18:57:47.922 DEBUG [8882] [OPCUAAdapter::init@222] Sample started
+2024-01-12 18:57:47.922 DEBUG [8884] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:47.922 DEBUG [8882] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 18:57:47.922 DEBUG [8884] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:47.923 DEBUG [8884] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 18:57:47.923 DEBUG [8884] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:47.923 DEBUG [8884] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:47.923 DEBUG [8884] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 18:57:47.923 DEBUG [8884] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:57:47.924 DEBUG [8884] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:57:47.924 DEBUG [8884] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 18:57:47.924 DEBUG [8884] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:47.924 DEBUG [8884] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:57:47.924 DEBUG [8884] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 18:57:47.925 DEBUG [8884] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 18:57:47.925 DEBUG [8884] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 18:57:47.925 DEBUG [8884] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 18:57:47.925 DEBUG [8884] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 18:57:47.925 DEBUG [8884] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 18:59:44.565 DEBUG [8884] [CallBack::message_arrived@93] Message arrived	topic: 'Probe/Query/Request/adapter1	payload: '{"@id": "some_mid_001", "guid":"dev_uuid"}
+2024-01-12 18:59:44.565 DEBUG [8884] [CallBack::message_arrived@106] Message published	topic: 'Probe/Query/Response/adapter1	payload: '{"dev_uuid":"adapter1","log_path":"log.log","model_config":{"description":"A NC_LINK instance given by NC_LINK Group","model_id":"adapter1","model_name":"NC_LINK_PROBE","model_type":"NC_LINK_ROOT","version":"1.1.0"},"mqtt_config":{"certification_path":"","password":"admin","server_ip":"tcp://localhost:1883","user_name":"admin"},"opcua_config":{"server_ip":"opc.tcp://127.0.0.1:4840","server_port":4840},"opcua_nodes":[{"Identifier":"the.answer","IdentifierType":"String","namespace":1},{"Identifier":"the.answer2","IdentifierType":"String","namespace":1}],"publish_method_qos":{"Probe/Query/Response/":0,"Probe/Set/Response/":0,"Probe/Version/":1,"Query/Response/":0,"Register/Request":1,"Sample":0,"Set/Response/":0},"sample_nodes":[{"Identifier":"the.answer","IdentifierType":"String","namespace":1},{"Identifier":"the.answer1","IdentifierType":"String","namespace":1},{"Identifier":"123456","IdentifierType":"Int32","namespace":1},{"Identifier":"\"T0\".ET","IdentifierType":"String","namespace":3},{"Identifier":"\"1灯\"","IdentifierType":"String","namespace":3}],"subscribe_method_qos":{"Probe/Query/Request/":0,"Probe/Set/Request/":0,"Probe/Version/Response/":1,"Query/Request/":0,"Register/Response/":1,"Set/Request/":0},"subscript_publish_map":{"Probe/Query/Request/":"Probe/Query/Response/","Probe/Set/Request/":"Probe/Set/Response/","Query/Request/":"Query/Response/","Set/Request/":"Set/Response/"}}
+2024-01-12 19:00:33.741 DEBUG [8884] [CallBack::message_arrived@93] Message arrived	topic: 'Query/Request/adapter1	payload: '{"@id":"some_mid_x1","ids":[{"id":"010303"}],"guid":"adapter1"}
+2024-01-12 19:00:33.742 DEBUG [8884] [CallBack::message_arrived@106] Message published	topic: 'Query/Response/adapter1	payload: '{"@id":"some_mid_x1","guid":"adapter1","results":[{"code":"OK","id":"010303","value":"false"}]}
+2024-01-12 19:01:05.602 DEBUG [9019] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 19:01:05.602 DEBUG [9019] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 19:01:05.602 DEBUG [9019] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 19:01:05.604 DEBUG [9019] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:01:05.606 DEBUG [9019] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:01:05.606 DEBUG [9019] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 19:01:05.607 DEBUG [9019] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:01:05.607 DEBUG [9019] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 19:01:05.608 DEBUG [9019] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 19:01:05.609 DEBUG [9019] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 19:01:05.712 DEBUG [9019] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 19:01:05.712 DEBUG [9019] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 19:01:05.712 DEBUG [9021] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 19:01:05.712 DEBUG [9019] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 19:01:05.712 DEBUG [9019] [OPCUAAdapter::init@222] Sample started
+2024-01-12 19:01:05.712 DEBUG [9019] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 19:01:05.713 DEBUG [9021] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 19:01:05.714 DEBUG [9021] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:01:05.714 DEBUG [9021] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:01:05.715 DEBUG [9021] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 19:01:05.715 DEBUG [9021] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:01:05.715 DEBUG [9021] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:01:05.716 DEBUG [9021] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 19:01:05.716 DEBUG [9021] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:01:05.717 DEBUG [9021] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:01:05.717 DEBUG [9021] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 19:01:05.718 DEBUG [9021] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:01:05.718 DEBUG [9021] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:01:05.718 DEBUG [9021] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 19:01:05.719 DEBUG [9021] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:01:05.719 DEBUG [9021] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:01:05.719 DEBUG [9021] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 19:01:05.720 DEBUG [9021] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:01:05.720 DEBUG [9021] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:10:48.089 DEBUG [9231] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 19:10:48.090 DEBUG [9231] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 19:10:48.090 DEBUG [9231] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 19:10:48.092 DEBUG [9231] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:10:48.094 DEBUG [9231] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:10:48.094 DEBUG [9231] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 19:10:48.096 DEBUG [9231] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:10:48.096 DEBUG [9231] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 19:10:48.097 DEBUG [9231] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 19:10:48.098 DEBUG [9231] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 19:10:48.200 DEBUG [9231] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 19:10:48.200 DEBUG [9231] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 19:10:48.201 DEBUG [9231] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 19:10:48.201 DEBUG [9231] [OPCUAAdapter::init@222] Sample started
+2024-01-12 19:10:48.201 DEBUG [9233] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 19:10:48.201 DEBUG [9231] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 19:10:48.202 DEBUG [9233] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 19:10:48.203 DEBUG [9233] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:10:48.203 DEBUG [9233] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:10:48.204 DEBUG [9233] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 19:10:48.204 DEBUG [9233] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:10:48.205 DEBUG [9233] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:10:48.205 DEBUG [9233] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 19:10:48.206 DEBUG [9233] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:10:48.206 DEBUG [9233] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:10:48.207 DEBUG [9233] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 19:10:48.207 DEBUG [9233] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:10:48.207 DEBUG [9233] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:10:48.208 DEBUG [9233] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 19:10:48.208 DEBUG [9233] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:10:48.209 DEBUG [9233] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:10:48.209 DEBUG [9233] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 19:10:48.210 DEBUG [9233] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:10:48.210 DEBUG [9233] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:11:11.738 DEBUG [9238] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 19:11:11.739 DEBUG [9238] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 19:11:11.739 DEBUG [9238] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 19:11:11.741 DEBUG [9238] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:11:11.742 DEBUG [9238] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:11:11.742 DEBUG [9238] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 19:11:11.743 DEBUG [9238] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:11:11.743 DEBUG [9238] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 19:11:11.744 DEBUG [9238] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 19:11:11.745 DEBUG [9238] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 19:11:11.848 DEBUG [9238] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 19:11:11.848 DEBUG [9238] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 19:11:11.848 DEBUG [9240] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 19:11:11.848 DEBUG [9238] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 19:11:11.848 DEBUG [9238] [OPCUAAdapter::init@222] Sample started
+2024-01-12 19:11:11.848 DEBUG [9238] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 19:11:11.849 DEBUG [9240] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 19:11:11.849 DEBUG [9240] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:11:11.849 DEBUG [9240] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:11:11.849 DEBUG [9240] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 19:11:11.850 DEBUG [9240] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:11:11.850 DEBUG [9240] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:11:11.850 DEBUG [9240] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 19:11:11.850 DEBUG [9240] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:11:11.850 DEBUG [9240] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:11:11.850 DEBUG [9240] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 19:11:11.850 DEBUG [9240] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:11:11.851 DEBUG [9240] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:11:11.851 DEBUG [9240] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 19:11:11.851 DEBUG [9240] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:11:11.851 DEBUG [9240] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:11:11.851 DEBUG [9240] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 19:11:11.851 DEBUG [9240] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:11:11.851 DEBUG [9240] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:12:11.943 DEBUG [9244] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 19:12:11.943 DEBUG [9244] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 19:12:11.943 DEBUG [9244] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 19:12:11.945 DEBUG [9244] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:12:11.946 DEBUG [9244] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:12:11.946 DEBUG [9244] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 19:12:11.947 DEBUG [9244] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:12:11.947 DEBUG [9244] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 19:12:11.948 DEBUG [9244] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 19:12:11.949 DEBUG [9244] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 19:12:12.051 DEBUG [9244] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 19:12:12.052 DEBUG [9244] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 19:12:12.052 DEBUG [9244] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 19:12:12.052 DEBUG [9244] [OPCUAAdapter::init@222] Sample started
+2024-01-12 19:12:12.052 DEBUG [9244] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 19:12:12.052 DEBUG [9246] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 19:12:12.053 DEBUG [9246] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 19:12:12.054 DEBUG [9246] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:12:12.054 DEBUG [9246] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:12:12.055 DEBUG [9246] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 19:12:12.055 DEBUG [9246] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:12:12.056 DEBUG [9246] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:12:12.056 DEBUG [9246] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 19:12:12.057 DEBUG [9246] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:12:12.057 DEBUG [9246] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:12:12.058 DEBUG [9246] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 19:12:12.058 DEBUG [9246] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:12:12.059 DEBUG [9246] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:12:12.059 DEBUG [9246] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 19:12:12.059 DEBUG [9246] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:12:12.060 DEBUG [9246] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:12:12.060 DEBUG [9246] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 19:12:12.061 DEBUG [9246] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:12:12.061 DEBUG [9246] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:15:36.885 DEBUG [9249] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 19:15:36.885 DEBUG [9249] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 19:15:36.885 DEBUG [9249] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 19:15:36.887 DEBUG [9249] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:15:36.889 DEBUG [9249] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:15:36.889 DEBUG [9249] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 19:15:36.890 DEBUG [9249] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:15:36.891 DEBUG [9249] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 19:15:36.891 DEBUG [9249] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 19:15:36.892 DEBUG [9249] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 19:15:37.096 DEBUG [9249] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 19:15:37.096 DEBUG [9249] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 19:15:37.096 DEBUG [9251] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 19:15:37.096 DEBUG [9249] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 19:15:37.096 DEBUG [9249] [OPCUAAdapter::init@222] Sample started
+2024-01-12 19:15:37.096 DEBUG [9249] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 19:15:37.097 DEBUG [9251] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 19:15:37.098 DEBUG [9251] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:15:37.098 DEBUG [9251] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:15:37.099 DEBUG [9251] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 19:15:37.099 DEBUG [9251] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:15:37.100 DEBUG [9251] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:15:37.100 DEBUG [9251] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 19:15:37.101 DEBUG [9251] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:15:37.101 DEBUG [9251] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:15:37.102 DEBUG [9251] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 19:15:37.102 DEBUG [9251] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:15:37.103 DEBUG [9251] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:15:37.103 DEBUG [9251] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 19:15:37.104 DEBUG [9251] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:15:37.104 DEBUG [9251] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:15:37.104 DEBUG [9251] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 19:15:37.105 DEBUG [9251] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:15:37.105 DEBUG [9251] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:39:32.948 DEBUG [9332] [OPCUAAdapter::init@120] UA_Client_connect completed
+2024-01-12 19:39:32.948 DEBUG [9332] [OPCUAAdapter::init@149] MonitorNodeMap size :3
+2024-01-12 19:39:32.948 DEBUG [9332] [OPCUAAdapter::init@150] addMoitoredItemToVariable starting
+
+2024-01-12 19:39:32.950 DEBUG [9332] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:39:32.951 DEBUG [9332] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:39:32.951 DEBUG [9332] [OPCUAAdapter::init@166] type Int32,Sample MonitorId adding:123456
+2024-01-12 19:39:32.953 DEBUG [9332] [OPCUAInterface::addMonitoredItemToVariable@101] MonitorId adding completed!
+
+2024-01-12 19:39:32.953 DEBUG [9332] [OPCUAAdapter::init@174] addMoitoredItemToVariable Completed
+2024-01-12 19:39:32.954 DEBUG [9332] [OPCUAAdapter::init@205] Connecting to the MQTT server...
+2024-01-12 19:39:32.955 DEBUG [9332] [OPCUAAdapter::init@207] Waiting connectted to the MQTT server...
+2024-01-12 19:39:33.158 DEBUG [9332] [OPCUAAdapter::init@210] MQTT server connected...
+2024-01-12 19:39:33.158 DEBUG [9332] [OPCUAAdapter::init@218] Sample starting
+2024-01-12 19:39:33.158 DEBUG [9334] [CallBack::connected@127] Mqtt Subscribe topic:
+2024-01-12 19:39:33.158 DEBUG [9332] [OPCUAAdapter::init@220] SampleChannel:sample_channel0
+2024-01-12 19:39:33.158 DEBUG [9332] [OPCUAAdapter::init@222] Sample started
+2024-01-12 19:39:33.158 DEBUG [9332] [OPCUAAdapter::init@227] samplechannel:sample_channel0
+2024-01-12 19:39:33.159 DEBUG [9334] [CallBack::connected@135] key: Probe/Query/Request/adapter1, value:0
+
+2024-01-12 19:39:33.160 DEBUG [9334] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:39:33.160 DEBUG [9334] [CallBack::connected@146] key: Probe/Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:39:33.161 DEBUG [9334] [CallBack::connected@135] key: Probe/Set/Request/adapter1, value:0
+
+2024-01-12 19:39:33.161 DEBUG [9334] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:39:33.162 DEBUG [9334] [CallBack::connected@146] key: Probe/Set/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:39:33.162 DEBUG [9334] [CallBack::connected@135] key: Probe/Version/Response/adapter1, value:1
+
+2024-01-12 19:39:33.163 DEBUG [9334] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:39:33.163 DEBUG [9334] [CallBack::connected@146] key: Probe/Version/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:39:33.164 DEBUG [9334] [CallBack::connected@135] key: Query/Request/adapter1, value:0
+
+2024-01-12 19:39:33.164 DEBUG [9334] [CallBack::connected@146] key: Query/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:39:33.165 DEBUG [9334] [CallBack::connected@146] key: Query/Request/adapter1/the.answer2, value:0
+
+2024-01-12 19:39:33.165 DEBUG [9334] [CallBack::connected@135] key: Register/Response/adapter1, value:1
+
+2024-01-12 19:39:33.166 DEBUG [9334] [CallBack::connected@146] key: Register/Response/adapter1/the.answer, value:1
+
+2024-01-12 19:39:33.166 DEBUG [9334] [CallBack::connected@146] key: Register/Response/adapter1/the.answer2, value:1
+
+2024-01-12 19:39:33.166 DEBUG [9334] [CallBack::connected@135] key: Set/Request/adapter1, value:0
+
+2024-01-12 19:39:33.167 DEBUG [9334] [CallBack::connected@146] key: Set/Request/adapter1/the.answer, value:0
+
+2024-01-12 19:39:33.168 DEBUG [9334] [CallBack::connected@146] key: Set/Request/adapter1/the.answer2, value:0
+

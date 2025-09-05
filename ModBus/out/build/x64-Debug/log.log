@@ -1,0 +1,682 @@
+﻿2024-10-15 16:59:37.995 DEBUG [30976] [ModbusAdapter::init@50] Log Inited
+2024-10-15 16:59:37.995 DEBUG [30976] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 16:59:37.996 DEBUG [30976] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 16:59:38.501 DEBUG [30976] [modbus::modbus_tcp::modbustcp_connect@15] modbus_tcp init or connect failed
+
+2024-10-15 17:00:11.085 DEBUG [28516] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:00:11.085 DEBUG [28516] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:00:11.086 DEBUG [28516] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:00:11.591 DEBUG [28516] [modbus::modbus_tcp::modbustcp_connect@15] modbus_tcp init or connect failed
+
+2024-10-15 17:08:19.887 DEBUG [61136] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:08:19.888 DEBUG [61136] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:08:19.888 DEBUG [61136] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:08:19.893 DEBUG [61136] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 17:08:19.894 DEBUG [61136] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 17:08:19.917 DEBUG [61136] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 17:08:19.917 DEBUG [61136] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 17:08:19.918 DEBUG [61136] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 17:08:19.919 DEBUG [61136] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 17:08:19.919 DEBUG [61136] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 17:08:45.219 DEBUG [58596] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 17:08:45.220 DEBUG [58596] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 17:08:45.220 DEBUG [58596] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 17:08:45.221 DEBUG [58596] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 17:08:45.221 DEBUG [58596] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 17:08:45.222 DEBUG [58596] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 17:08:45.223 DEBUG [58596] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 17:08:45.223 DEBUG [58596] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-15 17:11:04.965 DEBUG [8092] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:11:04.966 DEBUG [8092] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:11:04.966 DEBUG [8092] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:11:04.967 DEBUG [8092] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 17:11:04.967 DEBUG [8092] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 17:11:04.971 DEBUG [8092] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 17:11:04.971 DEBUG [8092] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 17:11:04.972 DEBUG [8092] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 17:11:04.972 DEBUG [8092] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 17:11:04.972 DEBUG [8092] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 17:11:05.085 DEBUG [31616] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 17:11:05.086 DEBUG [31616] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 17:11:05.086 DEBUG [31616] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 17:11:05.087 DEBUG [31616] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 17:11:05.088 DEBUG [31616] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 17:11:05.088 DEBUG [31616] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 17:11:05.089 DEBUG [31616] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 17:11:05.089 DEBUG [31616] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-15 17:11:11.327 DEBUG [3880] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:11:11.327 DEBUG [3880] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:11:11.327 DEBUG [3880] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:11:11.329 DEBUG [3880] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 17:11:11.329 DEBUG [3880] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 17:11:11.334 DEBUG [3880] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 17:11:11.334 DEBUG [3880] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 17:11:11.334 DEBUG [3880] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 17:11:11.335 DEBUG [3880] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 17:11:11.335 DEBUG [3880] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 17:11:11.446 DEBUG [60836] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 17:11:11.447 DEBUG [60836] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 17:11:11.447 DEBUG [60836] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 17:11:11.447 DEBUG [60836] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 17:11:11.448 DEBUG [60836] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 17:11:11.448 DEBUG [60836] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 17:11:11.448 DEBUG [60836] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 17:11:11.448 DEBUG [60836] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-15 17:11:38.479 DEBUG [59840] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:11:38.480 DEBUG [59840] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:11:38.480 DEBUG [59840] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:11:38.488 DEBUG [59840] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 17:11:38.488 DEBUG [59840] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 17:11:38.492 DEBUG [59840] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 17:11:38.492 DEBUG [59840] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 17:11:38.495 DEBUG [59840] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 17:11:38.497 DEBUG [59840] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 17:11:38.497 DEBUG [59840] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 17:12:25.441 DEBUG [60076] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:12:25.442 DEBUG [60076] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:12:25.442 DEBUG [60076] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:12:25.446 DEBUG [60076] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 17:12:25.446 DEBUG [60076] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 17:12:25.453 DEBUG [60076] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 17:12:25.453 DEBUG [60076] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 17:12:25.453 DEBUG [60076] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 17:12:25.455 DEBUG [60076] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 17:12:25.455 DEBUG [60076] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 17:12:44.027 DEBUG [60280] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:12:44.246 DEBUG [60280] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:13:05.976 DEBUG [60280] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:13:05.980 DEBUG [60280] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 17:13:06.833 DEBUG [60280] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 17:13:19.610 DEBUG [60280] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 17:13:20.054 DEBUG [60280] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 17:13:24.995 DEBUG [60280] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 17:13:25.846 DEBUG [60280] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 17:13:26.955 DEBUG [60280] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 17:13:28.561 DEBUG [56576] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 17:13:31.577 DEBUG [56576] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 17:13:32.753 DEBUG [56576] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 17:14:03.706 DEBUG [57728] [ModbusAdapter::init@50] Log Inited
+2024-10-15 17:14:03.871 DEBUG [57728] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 17:14:04.830 DEBUG [57728] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 17:14:04.835 DEBUG [57728] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 17:14:05.038 DEBUG [57728] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 17:14:11.327 DEBUG [57728] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 17:14:11.509 DEBUG [57728] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 17:14:13.618 DEBUG [57728] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 17:14:14.034 DEBUG [57728] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 17:14:14.226 DEBUG [57728] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 17:14:16.656 DEBUG [58496] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 17:14:16.677 DEBUG [58496] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 17:14:17.888 DEBUG [58496] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 17:16:04.624 DEBUG [58496] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 17:16:04.624 DEBUG [58496] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 17:16:04.627 DEBUG [58496] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 17:16:04.630 DEBUG [58496] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 17:16:04.630 DEBUG [58496] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-15 21:17:34.472 DEBUG [61280] [ModbusAdapter::init@50] Log Inited
+2024-10-15 21:17:34.472 DEBUG [61280] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 21:17:34.472 DEBUG [61280] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 21:17:34.474 DEBUG [61280] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 21:17:34.474 DEBUG [61280] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 21:17:34.489 DEBUG [61280] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 21:17:34.489 DEBUG [61280] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 21:17:34.490 DEBUG [61280] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 21:17:34.490 DEBUG [61280] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 21:17:34.490 DEBUG [61280] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 21:17:34.606 DEBUG [55864] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 21:17:34.607 DEBUG [55864] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 21:17:34.607 DEBUG [55864] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 21:17:34.608 DEBUG [55864] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 21:17:34.608 DEBUG [55864] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 21:17:34.608 DEBUG [55864] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 21:17:34.609 DEBUG [55864] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 21:17:34.609 DEBUG [55864] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-15 21:36:06.971 DEBUG [52528] [ModbusAdapter::init@50] Log Inited
+2024-10-15 21:36:06.972 DEBUG [52528] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 21:36:06.972 DEBUG [52528] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 21:36:06.973 DEBUG [52528] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 21:36:06.974 DEBUG [52528] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 21:36:06.989 DEBUG [52528] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 21:36:06.989 DEBUG [52528] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 21:36:06.989 DEBUG [52528] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 21:36:06.990 DEBUG [52528] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 21:36:06.990 DEBUG [52528] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 21:36:07.093 DEBUG [62232] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 21:36:07.093 DEBUG [62232] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 21:36:07.094 DEBUG [62232] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 21:36:07.094 DEBUG [62232] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 21:36:07.094 DEBUG [62232] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 21:36:07.095 DEBUG [62232] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 21:36:07.095 DEBUG [62232] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 21:36:07.095 DEBUG [62232] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-15 21:51:37.282 DEBUG [53568] [ModbusAdapter::init@50] Log Inited
+2024-10-15 21:51:37.283 DEBUG [53568] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 21:51:37.283 DEBUG [53568] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 21:51:37.285 DEBUG [53568] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 21:51:37.285 DEBUG [53568] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 21:51:37.290 DEBUG [53568] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 21:51:37.290 DEBUG [53568] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 21:51:37.290 DEBUG [53568] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 21:51:37.291 DEBUG [53568] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 21:51:37.291 DEBUG [53568] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 21:51:37.405 DEBUG [3712] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 21:51:37.406 DEBUG [3712] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 21:51:37.407 DEBUG [3712] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 21:51:37.407 DEBUG [3712] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 21:51:37.407 DEBUG [3712] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 21:51:37.408 DEBUG [3712] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 21:51:37.408 DEBUG [3712] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 21:51:37.408 DEBUG [3712] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-15 21:51:52.535 DEBUG [57148] [ModbusAdapter::init@50] Log Inited
+2024-10-15 21:51:52.535 DEBUG [57148] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-15 21:51:52.535 DEBUG [57148] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-15 21:51:52.554 DEBUG [57148] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-15 21:51:52.555 DEBUG [57148] [ModbusAdapter::init@70] driver module initing..
+2024-10-15 21:51:52.560 DEBUG [57148] [ModbusAdapter::init@83] driver module inited !
+2024-10-15 21:51:52.560 DEBUG [57148] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-15 21:51:52.560 DEBUG [57148] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-15 21:51:52.560 DEBUG [57148] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-15 21:51:52.560 DEBUG [57148] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-15 21:51:52.676 DEBUG [41028] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-15 21:51:52.676 DEBUG [41028] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-15 21:51:52.677 DEBUG [41028] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-15 21:51:52.677 DEBUG [41028] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-15 21:51:52.677 DEBUG [41028] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-15 21:51:52.678 DEBUG [41028] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-15 21:51:52.678 DEBUG [41028] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-15 21:51:52.678 DEBUG [41028] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:07:15.697 DEBUG [16756] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:07:15.698 DEBUG [16756] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:07:15.698 DEBUG [16756] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:07:16.213 DEBUG [16756] [modbus::modbus_tcp::modbustcp_connect@15] modbus_tcp init or connect failed
+
+2024-10-16 11:07:24.258 DEBUG [23968] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:07:24.258 DEBUG [23968] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:07:24.258 DEBUG [23968] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:07:24.765 DEBUG [23968] [modbus::modbus_tcp::modbustcp_connect@15] modbus_tcp init or connect failed
+
+2024-10-16 11:12:14.926 DEBUG [41844] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:12:14.927 DEBUG [41844] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:12:14.927 DEBUG [41844] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:12:14.928 DEBUG [41844] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:12:14.928 DEBUG [41844] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:12:14.941 DEBUG [41844] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:12:14.942 DEBUG [41844] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:12:14.944 DEBUG [41844] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:12:14.944 DEBUG [41844] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:12:14.944 DEBUG [41844] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:12:15.161 DEBUG [59048] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:12:15.162 DEBUG [59048] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:12:15.162 DEBUG [59048] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:12:15.163 DEBUG [59048] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:12:15.163 DEBUG [59048] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:12:15.163 DEBUG [59048] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:12:15.163 DEBUG [59048] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:12:15.164 DEBUG [59048] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:18:17.240 DEBUG [34176] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:18:17.241 DEBUG [34176] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:18:17.241 DEBUG [34176] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:18:17.243 DEBUG [34176] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:18:17.243 DEBUG [34176] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:18:17.247 DEBUG [34176] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:18:17.247 DEBUG [34176] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:18:17.249 DEBUG [34176] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:18:17.250 DEBUG [34176] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:18:17.250 DEBUG [34176] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:18:17.362 DEBUG [37528] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:18:17.362 DEBUG [37528] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:18:17.363 DEBUG [37528] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:18:17.363 DEBUG [37528] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:18:17.364 DEBUG [37528] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:18:17.364 DEBUG [37528] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:18:17.365 DEBUG [37528] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:18:17.365 DEBUG [37528] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:23:50.905 DEBUG [61380] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:23:50.906 DEBUG [61380] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:23:50.906 DEBUG [61380] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:23:56.828 DEBUG [61380] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:23:56.828 DEBUG [61380] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:23:56.837 DEBUG [61380] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:23:56.837 DEBUG [61380] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:23:56.838 DEBUG [61380] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:23:56.839 DEBUG [61380] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:23:56.840 DEBUG [61380] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:24:00.935 DEBUG [7248] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:24:00.936 DEBUG [7248] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:24:00.938 DEBUG [7248] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:24:00.939 DEBUG [7248] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:24:00.941 DEBUG [7248] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:24:00.942 DEBUG [7248] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:24:00.943 DEBUG [7248] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:24:00.944 DEBUG [7248] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:24:33.193 DEBUG [66308] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:24:33.193 DEBUG [66308] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:24:33.194 DEBUG [66308] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:24:33.207 DEBUG [66308] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:24:33.207 DEBUG [66308] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:24:33.216 DEBUG [66308] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:24:33.216 DEBUG [66308] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:24:33.217 DEBUG [66308] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:24:33.220 DEBUG [66308] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:24:33.220 DEBUG [66308] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:24:33.434 DEBUG [65948] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:24:33.434 DEBUG [65948] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:24:33.435 DEBUG [65948] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:24:33.435 DEBUG [65948] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:24:33.436 DEBUG [65948] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:24:33.436 DEBUG [65948] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:24:33.436 DEBUG [65948] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:24:33.436 DEBUG [65948] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:25:01.953 DEBUG [66268] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:25:01.953 DEBUG [66268] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:25:01.953 DEBUG [66268] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:25:01.954 DEBUG [66268] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:25:01.955 DEBUG [66268] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:25:01.959 DEBUG [66268] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:25:01.959 DEBUG [66268] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:25:01.960 DEBUG [66268] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:25:01.960 DEBUG [66268] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:25:01.960 DEBUG [66268] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:25:02.067 DEBUG [56052] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:25:02.068 DEBUG [56052] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:25:02.069 DEBUG [56052] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:25:02.070 DEBUG [56052] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:25:02.071 DEBUG [56052] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:25:02.072 DEBUG [56052] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:25:02.072 DEBUG [56052] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:25:02.073 DEBUG [56052] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:28:14.682 DEBUG [37244] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:28:14.682 DEBUG [37244] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:28:14.683 DEBUG [37244] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:28:14.684 DEBUG [37244] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:28:14.684 DEBUG [37244] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:28:14.688 DEBUG [37244] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:28:14.688 DEBUG [37244] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:28:14.689 DEBUG [37244] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:28:14.689 DEBUG [37244] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:28:14.689 DEBUG [37244] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:28:14.794 DEBUG [11860] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:28:14.795 DEBUG [11860] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:28:14.795 DEBUG [11860] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:28:14.796 DEBUG [11860] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:28:14.796 DEBUG [11860] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:28:14.796 DEBUG [11860] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:28:14.797 DEBUG [11860] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:28:14.797 DEBUG [11860] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:33:24.560 DEBUG [10792] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:33:24.560 DEBUG [10792] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:33:24.560 DEBUG [10792] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:33:24.563 DEBUG [10792] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:33:24.563 DEBUG [10792] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:33:24.566 DEBUG [10792] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:33:24.566 DEBUG [10792] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:33:24.567 DEBUG [10792] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:33:24.567 DEBUG [10792] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:33:24.567 DEBUG [10792] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:33:24.670 DEBUG [64692] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:33:24.671 DEBUG [64692] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:33:24.673 DEBUG [64692] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:33:24.674 DEBUG [64692] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:33:24.674 DEBUG [64692] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:33:24.675 DEBUG [64692] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:33:24.676 DEBUG [64692] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:33:24.676 DEBUG [64692] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:39:37.272 DEBUG [40700] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:39:37.273 DEBUG [40700] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:39:37.273 DEBUG [40700] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:39:37.291 DEBUG [40700] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:39:37.291 DEBUG [40700] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:39:37.295 DEBUG [40700] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:39:37.295 DEBUG [40700] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:39:37.296 DEBUG [40700] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:39:37.296 DEBUG [40700] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:39:37.296 DEBUG [40700] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:39:37.413 DEBUG [10292] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:39:37.414 DEBUG [10292] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:39:37.415 DEBUG [10292] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:39:37.415 DEBUG [10292] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:39:37.416 DEBUG [10292] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:39:37.417 DEBUG [10292] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:39:37.417 DEBUG [10292] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:39:37.418 DEBUG [10292] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:44:15.274 DEBUG [4984] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:44:15.274 DEBUG [4984] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:44:15.274 DEBUG [4984] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:44:15.276 DEBUG [4984] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:44:15.276 DEBUG [4984] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:44:15.279 DEBUG [4984] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:44:15.279 DEBUG [4984] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:44:15.280 DEBUG [4984] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:44:15.280 DEBUG [4984] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:44:15.280 DEBUG [4984] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:44:15.387 DEBUG [43072] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:44:15.388 DEBUG [43072] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:44:15.390 DEBUG [43072] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:44:15.391 DEBUG [43072] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:44:15.392 DEBUG [43072] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:44:15.394 DEBUG [43072] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:44:15.395 DEBUG [43072] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:44:15.396 DEBUG [43072] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 11:45:58.277 DEBUG [66844] [ModbusAdapter::init@50] Log Inited
+2024-10-16 11:45:58.277 DEBUG [66844] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 11:45:58.277 DEBUG [66844] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 11:45:58.278 DEBUG [66844] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 11:45:58.278 DEBUG [66844] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 11:45:58.282 DEBUG [66844] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 11:45:58.282 DEBUG [66844] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 11:45:58.282 DEBUG [66844] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 11:45:58.283 DEBUG [66844] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 11:45:58.283 DEBUG [66844] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 11:45:58.391 DEBUG [55324] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 11:45:58.392 DEBUG [55324] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 11:45:58.392 DEBUG [55324] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 11:45:58.393 DEBUG [55324] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 11:45:58.393 DEBUG [55324] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 11:45:58.393 DEBUG [55324] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 11:45:58.394 DEBUG [55324] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 11:45:58.394 DEBUG [55324] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 12:07:02.702 DEBUG [52780] [ModbusAdapter::init@50] Log Inited
+2024-10-16 12:07:02.703 DEBUG [52780] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 12:07:02.703 DEBUG [52780] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 12:07:02.704 DEBUG [52780] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 12:07:02.704 DEBUG [52780] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 12:07:02.708 DEBUG [52780] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 12:07:02.708 DEBUG [52780] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 12:07:02.709 DEBUG [52780] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 12:07:02.709 DEBUG [52780] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 12:07:02.709 DEBUG [52780] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 12:07:02.821 DEBUG [64164] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 12:07:02.822 DEBUG [64164] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 12:07:02.823 DEBUG [64164] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 12:07:02.825 DEBUG [64164] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 12:07:02.826 DEBUG [64164] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 12:07:02.827 DEBUG [64164] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 12:07:02.828 DEBUG [64164] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 12:07:02.830 DEBUG [64164] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2024-10-16 12:08:18.479 DEBUG [54128] [ModbusAdapter::init@50] Log Inited
+2024-10-16 12:08:18.480 DEBUG [54128] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2024-10-16 12:08:18.480 DEBUG [54128] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2024-10-16 12:08:18.481 DEBUG [54128] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2024-10-16 12:08:18.481 DEBUG [54128] [ModbusAdapter::init@70] driver module initing..
+2024-10-16 12:08:18.485 DEBUG [54128] [ModbusAdapter::init@83] driver module inited !
+2024-10-16 12:08:18.485 DEBUG [54128] [ModbusAdapter::init@86] MQTT module initing..
+2024-10-16 12:08:18.486 DEBUG [54128] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2024-10-16 12:08:18.486 DEBUG [54128] [ModbusAdapter::init@99] MQTT server connected..
+2024-10-16 12:08:18.486 DEBUG [54128] [ModbusAdapter::init@107] MQTT module inited !
+2024-10-16 12:08:18.603 DEBUG [29988] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2024-10-16 12:08:18.604 DEBUG [29988] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2024-10-16 12:08:18.605 DEBUG [29988] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2024-10-16 12:08:18.606 DEBUG [29988] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2024-10-16 12:08:18.608 DEBUG [29988] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2024-10-16 12:08:18.609 DEBUG [29988] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2024-10-16 12:08:18.610 DEBUG [29988] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2024-10-16 12:08:18.612 DEBUG [29988] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2025-09-05 12:58:16.848 DEBUG [44816] [ModbusAdapter::init@50] Log Inited
+2025-09-05 12:58:16.851 DEBUG [44816] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2025-09-05 12:58:16.851 DEBUG [44816] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2025-09-05 12:58:16.855 DEBUG [44816] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2025-09-05 12:58:16.855 DEBUG [44816] [ModbusAdapter::init@70] driver module initing..
+2025-09-05 12:58:16.869 DEBUG [44816] [ModbusAdapter::init@83] driver module inited !
+2025-09-05 12:58:16.869 DEBUG [44816] [ModbusAdapter::init@86] MQTT module initing..
+2025-09-05 12:58:16.870 DEBUG [44816] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2025-09-05 12:58:16.870 DEBUG [44816] [ModbusAdapter::init@99] MQTT server connected..
+2025-09-05 12:58:16.870 DEBUG [44816] [ModbusAdapter::init@107] MQTT module inited !
+2025-09-05 12:58:16.996 DEBUG [28908] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2025-09-05 12:58:17.003 DEBUG [28908] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2025-09-05 12:58:17.034 DEBUG [28908] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2025-09-05 12:58:17.065 DEBUG [28908] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2025-09-05 12:58:17.082 DEBUG [28908] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2025-09-05 12:58:17.099 DEBUG [28908] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2025-09-05 12:58:17.105 DEBUG [28908] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2025-09-05 12:58:17.120 DEBUG [28908] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+
+2025-09-05 13:05:55.512 DEBUG [33180] [ModbusAdapter::init@50] Log Inited
+2025-09-05 13:05:55.512 DEBUG [33180] [ModbusAdapter::init@51] dev_uuid:"adapter1"
+2025-09-05 13:05:55.513 DEBUG [33180] [modbus::modbus_tcp::modbustcp_connect@10] modbus_tcp is connecting to 127.0.0.1:502
+
+2025-09-05 13:05:55.545 DEBUG [33180] [modbus::modbus_tcp::modbustcp_connect@18] modbus_tcp init and connect succeeded
+
+2025-09-05 13:05:55.545 DEBUG [33180] [ModbusAdapter::init@70] driver module initing..
+2025-09-05 13:05:55.549 DEBUG [33180] [ModbusAdapter::init@83] driver module inited !
+2025-09-05 13:05:55.549 DEBUG [33180] [ModbusAdapter::init@86] MQTT module initing..
+2025-09-05 13:05:55.550 DEBUG [33180] [ModbusAdapter::init@97] Connecting to the MQTT server...
+2025-09-05 13:05:55.550 DEBUG [33180] [ModbusAdapter::init@99] MQTT server connected..
+2025-09-05 13:05:55.550 DEBUG [33180] [ModbusAdapter::init@107] MQTT module inited !
+2025-09-05 13:05:55.628 DEBUG [4784] [CallBack::connected@138] key: Probe/Query/Request/adapter1, value:0
+
+2025-09-05 13:05:55.638 DEBUG [4784] [CallBack::connected@138] key: Probe/Set/Request/adapter1, value:0
+
+2025-09-05 13:05:55.651 DEBUG [4784] [CallBack::connected@138] key: Probe/Version/Response/adapter1, value:1
+
+2025-09-05 13:05:55.672 DEBUG [4784] [CallBack::connected@138] key: Query/Request/adapter1, value:0
+
+2025-09-05 13:05:55.709 DEBUG [4784] [CallBack::connected@138] key: Register/Response/adapter1, value:1
+
+2025-09-05 13:05:55.751 DEBUG [4784] [CallBack::connected@138] key: Register/Sample/Request/adapter1, value:0
+
+2025-09-05 13:05:55.814 DEBUG [4784] [CallBack::connected@138] key: Set/Request/adapter1, value:0
+
+2025-09-05 13:05:55.814 DEBUG [4784] [CallBack::connected@138] key: Unregister/Sample/Request/adapter1, value:0
+

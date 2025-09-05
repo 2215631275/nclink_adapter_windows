@@ -1,0 +1,90 @@
+{
+	"dev_uuid": "adapter1",
+	"log_path": "log.log",
+
+	"model_config": {
+		"model_id": "adapter1",
+		"model_name": "NC_LINK_PROBE",
+		"model_type": "NC_LINK_ROOT",
+		"description": "A NC_LINK instance given by NC_LINK Group",
+		"version": "1.1.0"
+	},
+	
+	"mqtt_config": {
+		"server_ip": "tcp://localhost:1883",
+		"user_name": "admin",
+		"password": "admin",
+		"certification_path": ""
+	},
+	"subscribe_method_qos": {
+		"Register/Response/": 1,
+		"Probe/Query/Request/": 0,
+		"Probe/Set/Request/": 0,
+		"Query/Request/": 0,
+		"Set/Request/": 0,
+		"Probe/Version/Response/": 1
+	},
+	"publish_method_qos": {
+		"Register/Request": 1,
+		"Probe/Query/Response/": 0,
+		"Probe/Set/Response/": 0,
+		"Query/Response/": 0,
+		"Set/Response/": 0,
+		"Sample": 0,
+		"Probe/Version/": 1,
+		"FlowCollection/": 0
+	},
+	"opcua_config": {
+		"server_port": 4840,
+		"server_ip": "opc.tcp://127.0.0.1:4840"
+	},
+
+	"subscript_publish_map": {
+		"Probe/Query/Request/": "Probe/Query/Response/",
+		"Probe/Set/Request/": "Probe/Set/Response/",
+		"Query/Request/": "Query/Response/",
+		"Set/Request/": "Set/Response/"
+	},
+	"flowcollection_sample":10000,
+	"flowcollection_upload":10000,
+	"opcua_nodes": [
+		{
+			"namespace": 1,
+			"IdentifierType": "String",
+			"Identifier": "the.answer"
+		},
+		{
+			"namespace": 1,
+			"IdentifierType": "String",
+			"Identifier": "the.answer2"
+		}
+	],
+	"sample_nodes": [
+		{
+			"namespace": 1,
+			"IdentifierType": "String",
+			"Identifier": "the.answer"
+		},
+		{
+			"namespace": 1,
+			"IdentifierType": "String",
+			"Identifier": "the.answer1"
+		},
+		{
+			"namespace": 1,
+			"IdentifierType": "Int32",
+			"Identifier": "123456"
+		},
+		{
+			"namespace": 3,
+			"IdentifierType": "String",
+			"Identifier": "\"T0\".ET"
+		},
+		{
+			"namespace": 3,
+			"IdentifierType": "String",
+			"Identifier": "\"1灯\""
+		}
+
+	]
+}

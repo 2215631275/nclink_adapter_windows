@@ -1,0 +1,4 @@
+/home/ubuntu/normal/OPC-UA/CMakeFiles/OPC-UA.dir
+/home/ubuntu/normal/OPC-UA/CMakeFiles/OPC-UA-Server.dir
+/home/ubuntu/normal/OPC-UA/CMakeFiles/edit_cache.dir
+/home/ubuntu/normal/OPC-UA/CMakeFiles/rebuild_cache.dir

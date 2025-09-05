@@ -1,0 +1,355 @@
+{
+  "FlowCollection": [
+    {
+      "source_ipport": "10.12.168.119:5684",
+      "dest_ipport": "10.12.175.255:5684",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 2.450945,
+      "flow_bytes": 2490,
+      "protocol": "COAP"
+    },
+    {
+      "source_ipport": "10.12.172.88:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.102495,
+      "flow_bytes": 280,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.168.58:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 95,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.170.18:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 1.222973,
+      "flow_bytes": 408,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.175.9:44542",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 81,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "223.5.5.5:53",
+      "dest_ipport": "10.12.173.59:50669",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 156,
+      "protocol": "Alibaba"
+    },
+    {
+      "source_ipport": "10.12.170.45:61314",
+      "dest_ipport": "239.255.255.250:1900",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 219,
+      "protocol": "Unknown"
+    },
+    {
+      "source_ipport": "10.12.174.44:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.921675,
+      "flow_bytes": 667,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.174.40:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 119,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.175.51:53812",
+      "dest_ipport": "239.255.255.250:1900",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 217,
+      "protocol": "Unknown"
+    },
+    {
+      "source_ipport": "10.12.173.59:50669",
+      "dest_ipport": "223.5.5.5:53",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 73,
+      "protocol": "Alibaba"
+    },
+    {
+      "source_ipport": "10.12.173.59:8000",
+      "dest_ipport": "220.174.7.162:20791",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 62,
+      "protocol": "OICQ"
+    },
+    {
+      "source_ipport": "10.12.173.59:9993",
+      "dest_ipport": "104.194.8.134:9993",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000193,
+      "flow_bytes": 300,
+      "protocol": "Unknown"
+    },
+    {
+      "source_ipport": "10.12.173.59:8000",
+      "dest_ipport": "111.206.97.117:8702",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 66,
+      "protocol": "OICQ"
+    },
+    {
+      "source_ipport": "10.12.172.88:137",
+      "dest_ipport": "10.12.175.255:137",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.710003,
+      "flow_bytes": 184,
+      "protocol": "NetBIOS"
+    },
+    {
+      "source_ipport": "10.12.168.83:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 506,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.172.69:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 385,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.171.109:15838",
+      "dest_ipport": "239.255.255.250:1900",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 642,
+      "protocol": "Unknown"
+    },
+    {
+      "source_ipport": "10.12.173.100:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 487,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.170.91:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 457,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.169.111:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 398,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "111.206.97.117:8702",
+      "dest_ipport": "10.12.173.59:8000",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 75,
+      "protocol": "OICQ"
+    },
+    {
+      "source_ipport": "10.12.169.192:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 95,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.171.160:5684",
+      "dest_ipport": "10.12.175.255:5684",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 2.457356,
+      "flow_bytes": 2616,
+      "protocol": "COAP"
+    },
+    {
+      "source_ipport": "10.12.171.154:5684",
+      "dest_ipport": "10.12.175.255:5684",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 1.835674,
+      "flow_bytes": 2175,
+      "protocol": "COAP"
+    },
+    {
+      "source_ipport": "10.12.169.144:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 393,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.171.133:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 95,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.171.143:5684",
+      "dest_ipport": "10.12.175.255:5684",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.110615,
+      "flow_bytes": 896,
+      "protocol": "COAP"
+    },
+    {
+      "source_ipport": "10.12.169.149:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 435,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.171.149:46082",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 81,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.169.168:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 786,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.172.191:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 455,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.169.175:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:21",
+      "last_time": "2024-10-16-12:8:21",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 496,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.174.183:1312",
+      "dest_ipport": "239.255.255.250:1900",
+      "first_time": "2024-10-16-12:8:22",
+      "last_time": "2024-10-16-12:8:22",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 642,
+      "protocol": "Unknown"
+    },
+    {
+      "source_ipport": "10.12.169.216:62634",
+      "dest_ipport": "239.255.255.250:1900",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 217,
+      "protocol": "Unknown"
+    },
+    {
+      "source_ipport": "10.12.169.194:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 95,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.171.228:5353",
+      "dest_ipport": "224.0.0.251:5353",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.102049,
+      "flow_bytes": 256,
+      "protocol": "MDNS"
+    },
+    {
+      "source_ipport": "10.12.171.228:49579",
+      "dest_ipport": "239.255.255.250:1900",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 179,
+      "protocol": "Unknown"
+    },
+    {
+      "source_ipport": "10.12.171.228:51971",
+      "dest_ipport": "224.0.0.252:5355",
+      "first_time": "2024-10-16-12:8:20",
+      "last_time": "2024-10-16-12:8:20",
+      "flow_duration(s)": 0.000000,
+      "flow_bytes": 75,
+      "protocol": "LLMNR"
+    }
+  ]
+}

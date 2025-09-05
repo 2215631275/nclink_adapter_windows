@@ -1,0 +1,674 @@
+﻿2025-09-05 13:07:53.304 DEBUG [44636] [MTConnectAdapter::init@60] Request failed, error: 
+2025-09-05 13:07:53.309 DEBUG [44636] [MTConnectAdapter::init@63] Request failed, error: 
+2025-09-05 13:07:53.309 DEBUG [44636] [DeviceModel::parse@19] dev
+2025-09-05 13:07:53.314 DEBUG [44636] [DeviceModel::parse@131] model:{"description":"A NC_LINK instance given by NC_LINK Group","devices":[{"components":[{"components":[{"dataItems":[{"datatype":"string","description":"Sspeed","id":"c2","name":"Sspeed","setable":false,"source":"spindle_speed","type":"SPINDLE_SPEED","units":"REVOLUTION/MINUTE","value":""},{"datatype":"string","description":"Sovr","id":"c3","name":"Sovr","setable":false,"source":"SspeedOvr","type":"SPINDLE_SPEED","units":"PERCENT","value":""},{"datatype":"string","description":"Cmode","id":"cm","name":"Cmode","setable":false,"source":"","type":"ROTARY_MODE","units":"","value":""},{"datatype":"string","description":"","id":"Cloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Csystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""},{"datatype":"string","description":"Cload","id":"cl3","name":"Cload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""}],"description":"","id":"c1","name":"C","number":"","type":"Rotary"},{"dataItems":[{"datatype":"string","description":"Xact","id":"x2","name":"Xact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xcom","id":"x3","name":"Xcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xload","id":"n3","name":"Xload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Xloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Xsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"x1","name":"X","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Yact","id":"y2","name":"Yact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Ycom","id":"y3","name":"Ycom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Yload","id":"y4","name":"Yload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Yloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Ysystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"y1","name":"Y","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Zact","id":"z2","name":"Zact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zcom","id":"z3","name":"Zcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zload","id":"z4","name":"Zload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Zloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Zsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"z1","name":"Z","number":"","type":"Linear"}],"configs":[],"dataItems":[],"description":"","id":"ax","name":"Axes","number":"","type":"Axes"},{"components":[{"dataItems":[{"datatype":"string","description":"block","id":"cn2","name":"block","setable":false,"source":"","type":"BLOCK","units":"","value":""},{"datatype":"string","description":"mode","id":"cn3","name":"mode","setable":false,"source":"","type":"CONTROLLER_MODE","units":"","value":""},{"datatype":"string","description":"line","id":"cn4","name":"line","setable":false,"source":"","type":"LINE","units":"","value":""},{"datatype":"string","description":"program","id":"cn5","name":"program","setable":false,"source":"","type":"PROGRAM","units":"","value":""},{"datatype":"string","description":"execution","id":"cn6","name":"execution","setable":false,"source":"","type":"EXECUTION","units":"","value":""},{"datatype":"string","description":"tool_id","id":"cnt1","name":"tool_id","setable":false,"source":"","type":"TOOL_ID","units":"","value":""},{"datatype":"string","description":"","id":"Ppos","name":"","setable":false,"source":"","type":"PATH_POSITION","units":"MILLIMETER_3D","value":""},{"datatype":"string","description":"","id":"Frt","name":"","setable":false,"source":"path_feedrate","type":"PATH_FEEDRATE","units":"MILLIMETER/SECOND","value":""},{"datatype":"string","description":"","id":"Fovr","name":"","setable":false,"source":"feed_ovr","type":"PATH_FEEDRATE","units":"PERCENT","value":""}],"description":"","id":"pth","name":"path","number":"","type":"Path"}],"configs":[],"dataItems":[{"id":"msg","type":"MESSAGE"},{"id":"estop","type":"EMERGENCY_STOP"},{"id":"clp","type":"LOGIC_PROGRAM"},{"id":"motion","type":"MOTION_PROGRAM"},{"id":"system","type":"SYSTEM"}],"description":"","id":"cn1","name":"controller","number":"","type":"Controller"},{"components":[{"dataItems":[{"datatype":"string","description":"power","id":"p2","name":"power","setable":false,"source":"","type":"POWER_STATE","units":"","value":""}],"description":"","id":"el","name":"electric","number":"","type":"Electric"},{"dataItems":[{"datatype":"string","description":"","id":"clow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"coolpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"filter","name":"","setable":false,"source":"","type":"x:FILTER","units":"","value":""},{"datatype":"string","description":"","id":"coolantmotor","name":"","setable":false,"source":"","type":"ACTUATOR","units":"","value":""}],"description":"","id":"cool","name":"coolant","number":"","type":"Coolant"},{"dataItems":[{"datatype":"string","description":"","id":"hlow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"hpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"htemp","name":"","setable":false,"source":"","type":"TEMPERATURE","units":"","value":""}],"description":"","id":"hsys","name":"hydrolic","number":"","type":"Hydraulic"}],"configs":[],"dataItems":[],"description":"","id":"systems","name":"systems","number":"","type":"Systems"}],"configs":[{"description":"sample channel","id":"sample01","ids":[{"id":"avail"},{"id":"dev_asset_chg"},{"id":"dev_asset_rem"},{"id":"dev_asset_count"},{"id":"c2"},{"id":"c3"},{"id":"cm"},{"id":"Cloadc"},{"id":"Csystem"},{"id":"cl3"},{"id":"x2"},{"id":"x3"},{"id":"n3"},{"id":"Xloadc"},{"id":"Xsystem"},{"id":"y2"},{"id":"y3"},{"id":"y4"},{"id":"Yloadc"},{"id":"Ysystem"},{"id":"z2"},{"id":"z3"},{"id":"z4"},{"id":"Zloadc"},{"id":"Zsystem"},{"id":"msg"},{"id":"estop"},{"id":"clp"},{"id":"motion"},{"id":"system"},{"id":"cn2"},{"id":"cn3"},{"id":"cn4"},{"id":"cn5"},{"id":"cn6"},{"id":"cnt1"},{"id":"Ppos"},{"id":"Frt"},{"id":"Fovr"},{"id":"p2"},{"id":"clow"},{"id":"coolpres"},{"id":"filter"},{"id":"coolantmotor"},{"id":"hlow"},{"id":"hpres"},{"id":"htemp"}],"name":"sample object","sampleInterval":1000,"type":"SAMPLE_CHANNEL","uploadInterval":1000}],"dataItems":[{"id":"avail","type":"AVAILABILITY"},{"id":"dev_asset_chg","type":"ASSET_CHANGED"},{"id":"dev_asset_rem","type":"ASSET_REMOVED"},{"id":"dev_asset_count","type":"ASSET_COUNT"}],"description":"","guid":"000","id":"dev","name":"VMC-3Axis","number":"000","type":"MACHINE","version":"adapter1"}],"id":"adapter1","name":"NC_LINK_PROBE","type":"NC_LINK_ROOT","version":"1.1.0"}
+2025-09-05 13:07:53.314 DEBUG [44636] [MTConnectAdapter::init@67] <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/styles/styles.xsl"?>
+<MTConnectDevices xmlns:m="urn:mtconnect.org:MTConnectDevices:2.0" xmlns="urn:mtconnect.org:MTConnectDevices:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:2.0 /schemas/MTConnectDevices_2.0.xsd">
+  <Header creationTime="2025-09-05T05:07:53Z" sender="LAPTOP-SKB2GCJC" instanceId="1757048842" version="2.0.0.11" deviceModelChangeTime="2025-09-05T05:07:22.801392Z" assetBufferSize="1024" assetCount="0" bufferSize="131072"/>
+  <Devices>
+    <Agent id="agent_2cde48001122" mtconnectVersion="2.0" name="Agent" uuid="0b49a3a0-18ca-0139-8748-2cde48001122">
+      <DataItems>
+        <DataItem category="EVENT" id="agent_avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" id="device_added" type="DEVICE_ADDED"/>
+        <DataItem category="EVENT" id="device_removed" type="DEVICE_REMOVED"/>
+        <DataItem category="EVENT" id="device_changed" type="DEVICE_CHANGED"/>
+        <DataItem category="EVENT" discrete="true" id="agent_2cde48001122_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Adapters id="__adapters__">
+          <Components>
+            <Adapter id="_8ec99806c2" name="10.12.188.184:8080">
+              <DataItems>
+                <DataItem category="EVENT" id="_8ec99806c2_connection_status" type="CONNECTION_STATUS"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_uri" type="ADAPTER_URI">
+                  <Constraints>
+                    <Value>_10.12.188.184_8080</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="SAMPLE" id="_8ec99806c2_observation_update_rate" statistic="AVERAGE" type="OBSERVATION_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="SAMPLE" id="_8ec99806c2_asset_update_rate" statistic="AVERAGE" type="ASSET_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_software_version" type="ADAPTER_SOFTWARE_VERSION"/>
+                <DataItem category="EVENT" id="_8ec99806c2_mtconnect_version" type="MTCONNECT_VERSION"/>
+              </DataItems>
+            </Adapter>
+          </Components>
+        </Adapters>
+      </Components>
+    </Agent>
+    <Device id="dev" iso841Class="6" name="VMC-3Axis" sampleInterval="10" uuid="000">
+      <Description manufacturer="SystemInsights"/>
+      <DataItems>
+        <DataItem category="EVENT" id="avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" discrete="true" id="dev_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="dev_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="dev_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Axes id="ax" name="Axes">
+          <Components>
+            <Rotary id="c1" name="C">
+              <DataItems>
+                <DataItem category="SAMPLE" id="c2" name="Sspeed" nativeUnits="REVOLUTION/MINUTE" subType="ACTUAL" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE">
+                  <Source>spindle_speed</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="c3" name="Sovr" nativeUnits="PERCENT" subType="OVERRIDE" type="SPINDLE_SPEED" units="PERCENT">
+                  <Source>SspeedOvr</Source>
+                </DataItem>
+                <DataItem category="EVENT" id="cm" name="Cmode" type="ROTARY_MODE">
+                  <Constraints>
+                    <Value>SPINDLE</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="CONDITION" id="Cloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Csystem" type="SYSTEM"/>
+                <DataItem category="SAMPLE" id="cl3" name="Cload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+              </DataItems>
+            </Rotary>
+            <Linear id="x1" name="X">
+              <DataItems>
+                <DataItem category="SAMPLE" id="x2" name="Xact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="x3" name="Xcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="n3" name="Xload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Xloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Xsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="y1" name="Y">
+              <DataItems>
+                <DataItem category="SAMPLE" id="y2" name="Yact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y3" name="Ycom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y4" name="Yload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Yloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Ysystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="z1" name="Z">
+              <DataItems>
+                <DataItem category="SAMPLE" id="z2" name="Zact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z3" name="Zcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z4" name="Zload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Zloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Zsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+          </Components>
+        </Axes>
+        <Controller id="cn1" name="controller">
+          <DataItems>
+            <DataItem category="EVENT" id="msg" type="MESSAGE"/>
+            <DataItem category="EVENT" id="estop" type="EMERGENCY_STOP"/>
+            <DataItem category="CONDITION" id="clp" type="LOGIC_PROGRAM"/>
+            <DataItem category="CONDITION" id="motion" type="MOTION_PROGRAM"/>
+            <DataItem category="CONDITION" id="system" type="SYSTEM"/>
+          </DataItems>
+          <Components>
+            <Path id="pth" name="path">
+              <DataItems>
+                <DataItem category="EVENT" id="cn2" name="block" type="BLOCK"/>
+                <DataItem category="EVENT" id="cn3" name="mode" type="CONTROLLER_MODE"/>
+                <DataItem category="EVENT" id="cn4" name="line" type="LINE"/>
+                <DataItem category="EVENT" id="cn5" name="program" type="PROGRAM"/>
+                <DataItem category="EVENT" id="cn6" name="execution" type="EXECUTION"/>
+                <DataItem category="EVENT" id="cnt1" name="tool_id" type="TOOL_ID"/>
+                <DataItem category="SAMPLE" id="Ppos" nativeUnits="MILLIMETER_3D" subType="ACTUAL" type="PATH_POSITION" units="MILLIMETER_3D"/>
+                <DataItem category="SAMPLE" id="Frt" nativeUnits="MILLIMETER/SECOND" type="PATH_FEEDRATE" units="MILLIMETER/SECOND">
+                  <Source>path_feedrate</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="Fovr" nativeUnits="PERCENT" type="PATH_FEEDRATE" units="PERCENT">
+                  <Source>feed_ovr</Source>
+                </DataItem>
+              </DataItems>
+            </Path>
+          </Components>
+        </Controller>
+        <Systems id="systems" name="systems">
+          <Components>
+            <Electric id="el" name="electric">
+              <DataItems>
+                <DataItem category="EVENT" id="p2" name="power" type="POWER_STATE"/>
+              </DataItems>
+            </Electric>
+            <Coolant id="cool" name="coolant">
+              <DataItems>
+                <DataItem category="CONDITION" id="clow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="coolpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="filter" type="x:FILTER"/>
+                <DataItem category="CONDITION" id="coolantmotor" type="ACTUATOR"/>
+              </DataItems>
+            </Coolant>
+            <Hydraulic id="hsys" name="hydrolic">
+              <DataItems>
+                <DataItem category="CONDITION" id="hlow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="hpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="htemp" type="TEMPERATURE"/>
+              </DataItems>
+            </Hydraulic>
+          </Components>
+        </Systems>
+      </Components>
+    </Device>
+  </Devices>
+</MTConnectDevices>
+
+2025-09-05 13:07:53.316 DEBUG [44636] [MTConnectAdapter::init@91] Connecting to the MQTT server...
+2025-09-05 13:07:53.365 DEBUG [30164] [CallBack::connected@129] key: Probe/Query/Request/adapter1, value:0
+
+2025-09-05 13:07:53.397 DEBUG [30164] [CallBack::connected@129] key: Probe/Set/Request/adapter1, value:0
+
+2025-09-05 13:07:53.399 DEBUG [30164] [CallBack::connected@129] key: Probe/Version/Response/adapter1, value:1
+
+2025-09-05 13:07:53.401 DEBUG [30164] [CallBack::connected@129] key: Query/Request/adapter1, value:0
+
+2025-09-05 13:07:53.401 DEBUG [30164] [CallBack::connected@129] key: Register/Response/adapter1, value:1
+
+2025-09-05 13:07:53.402 DEBUG [30164] [CallBack::connected@129] key: Set/Request/adapter1, value:0
+
+2025-09-05 13:10:18.248 DEBUG [44536] [MTConnectAdapter::init@60] Request failed, error: 
+2025-09-05 13:10:18.254 DEBUG [44536] [MTConnectAdapter::init@63] Request failed, error: 
+2025-09-05 13:10:18.255 DEBUG [44536] [DeviceModel::parse@19] dev
+2025-09-05 13:10:18.265 DEBUG [44536] [DeviceModel::parse@131] model:{"description":"A NC_LINK instance given by NC_LINK Group","devices":[{"components":[{"components":[{"dataItems":[{"datatype":"string","description":"Sspeed","id":"c2","name":"Sspeed","setable":false,"source":"spindle_speed","type":"SPINDLE_SPEED","units":"REVOLUTION/MINUTE","value":""},{"datatype":"string","description":"Sovr","id":"c3","name":"Sovr","setable":false,"source":"SspeedOvr","type":"SPINDLE_SPEED","units":"PERCENT","value":""},{"datatype":"string","description":"Cmode","id":"cm","name":"Cmode","setable":false,"source":"","type":"ROTARY_MODE","units":"","value":""},{"datatype":"string","description":"","id":"Cloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Csystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""},{"datatype":"string","description":"Cload","id":"cl3","name":"Cload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""}],"description":"","id":"c1","name":"C","number":"","type":"Rotary"},{"dataItems":[{"datatype":"string","description":"Xact","id":"x2","name":"Xact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xcom","id":"x3","name":"Xcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xload","id":"n3","name":"Xload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Xloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Xsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"x1","name":"X","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Yact","id":"y2","name":"Yact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Ycom","id":"y3","name":"Ycom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Yload","id":"y4","name":"Yload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Yloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Ysystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"y1","name":"Y","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Zact","id":"z2","name":"Zact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zcom","id":"z3","name":"Zcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zload","id":"z4","name":"Zload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Zloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Zsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"z1","name":"Z","number":"","type":"Linear"}],"configs":[],"dataItems":[],"description":"","id":"ax","name":"Axes","number":"","type":"Axes"},{"components":[{"dataItems":[{"datatype":"string","description":"block","id":"cn2","name":"block","setable":false,"source":"","type":"BLOCK","units":"","value":""},{"datatype":"string","description":"mode","id":"cn3","name":"mode","setable":false,"source":"","type":"CONTROLLER_MODE","units":"","value":""},{"datatype":"string","description":"line","id":"cn4","name":"line","setable":false,"source":"","type":"LINE","units":"","value":""},{"datatype":"string","description":"program","id":"cn5","name":"program","setable":false,"source":"","type":"PROGRAM","units":"","value":""},{"datatype":"string","description":"execution","id":"cn6","name":"execution","setable":false,"source":"","type":"EXECUTION","units":"","value":""},{"datatype":"string","description":"tool_id","id":"cnt1","name":"tool_id","setable":false,"source":"","type":"TOOL_ID","units":"","value":""},{"datatype":"string","description":"","id":"Ppos","name":"","setable":false,"source":"","type":"PATH_POSITION","units":"MILLIMETER_3D","value":""},{"datatype":"string","description":"","id":"Frt","name":"","setable":false,"source":"path_feedrate","type":"PATH_FEEDRATE","units":"MILLIMETER/SECOND","value":""},{"datatype":"string","description":"","id":"Fovr","name":"","setable":false,"source":"feed_ovr","type":"PATH_FEEDRATE","units":"PERCENT","value":""}],"description":"","id":"pth","name":"path","number":"","type":"Path"}],"configs":[],"dataItems":[{"id":"msg","type":"MESSAGE"},{"id":"estop","type":"EMERGENCY_STOP"},{"id":"clp","type":"LOGIC_PROGRAM"},{"id":"motion","type":"MOTION_PROGRAM"},{"id":"system","type":"SYSTEM"}],"description":"","id":"cn1","name":"controller","number":"","type":"Controller"},{"components":[{"dataItems":[{"datatype":"string","description":"power","id":"p2","name":"power","setable":false,"source":"","type":"POWER_STATE","units":"","value":""}],"description":"","id":"el","name":"electric","number":"","type":"Electric"},{"dataItems":[{"datatype":"string","description":"","id":"clow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"coolpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"filter","name":"","setable":false,"source":"","type":"x:FILTER","units":"","value":""},{"datatype":"string","description":"","id":"coolantmotor","name":"","setable":false,"source":"","type":"ACTUATOR","units":"","value":""}],"description":"","id":"cool","name":"coolant","number":"","type":"Coolant"},{"dataItems":[{"datatype":"string","description":"","id":"hlow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"hpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"htemp","name":"","setable":false,"source":"","type":"TEMPERATURE","units":"","value":""}],"description":"","id":"hsys","name":"hydrolic","number":"","type":"Hydraulic"}],"configs":[],"dataItems":[],"description":"","id":"systems","name":"systems","number":"","type":"Systems"}],"configs":[{"description":"sample channel","id":"sample01","ids":[{"id":"avail"},{"id":"dev_asset_chg"},{"id":"dev_asset_rem"},{"id":"dev_asset_count"},{"id":"c2"},{"id":"c3"},{"id":"cm"},{"id":"Cloadc"},{"id":"Csystem"},{"id":"cl3"},{"id":"x2"},{"id":"x3"},{"id":"n3"},{"id":"Xloadc"},{"id":"Xsystem"},{"id":"y2"},{"id":"y3"},{"id":"y4"},{"id":"Yloadc"},{"id":"Ysystem"},{"id":"z2"},{"id":"z3"},{"id":"z4"},{"id":"Zloadc"},{"id":"Zsystem"},{"id":"msg"},{"id":"estop"},{"id":"clp"},{"id":"motion"},{"id":"system"},{"id":"cn2"},{"id":"cn3"},{"id":"cn4"},{"id":"cn5"},{"id":"cn6"},{"id":"cnt1"},{"id":"Ppos"},{"id":"Frt"},{"id":"Fovr"},{"id":"p2"},{"id":"clow"},{"id":"coolpres"},{"id":"filter"},{"id":"coolantmotor"},{"id":"hlow"},{"id":"hpres"},{"id":"htemp"}],"name":"sample object","sampleInterval":1000,"type":"SAMPLE_CHANNEL","uploadInterval":1000}],"dataItems":[{"id":"avail","type":"AVAILABILITY"},{"id":"dev_asset_chg","type":"ASSET_CHANGED"},{"id":"dev_asset_rem","type":"ASSET_REMOVED"},{"id":"dev_asset_count","type":"ASSET_COUNT"}],"description":"","guid":"000","id":"dev","name":"VMC-3Axis","number":"000","type":"MACHINE","version":"adapter1"}],"id":"adapter1","name":"NC_LINK_PROBE","type":"NC_LINK_ROOT","version":"1.1.0"}
+2025-09-05 13:10:18.266 DEBUG [44536] [MTConnectAdapter::init@67] <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/styles/styles.xsl"?>
+<MTConnectDevices xmlns:m="urn:mtconnect.org:MTConnectDevices:2.0" xmlns="urn:mtconnect.org:MTConnectDevices:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:2.0 /schemas/MTConnectDevices_2.0.xsd">
+  <Header creationTime="2025-09-05T05:10:18Z" sender="LAPTOP-SKB2GCJC" instanceId="1757048842" version="2.0.0.11" deviceModelChangeTime="2025-09-05T05:07:22.801392Z" assetBufferSize="1024" assetCount="0" bufferSize="131072"/>
+  <Devices>
+    <Agent id="agent_2cde48001122" mtconnectVersion="2.0" name="Agent" uuid="0b49a3a0-18ca-0139-8748-2cde48001122">
+      <DataItems>
+        <DataItem category="EVENT" id="agent_avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" id="device_added" type="DEVICE_ADDED"/>
+        <DataItem category="EVENT" id="device_removed" type="DEVICE_REMOVED"/>
+        <DataItem category="EVENT" id="device_changed" type="DEVICE_CHANGED"/>
+        <DataItem category="EVENT" discrete="true" id="agent_2cde48001122_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Adapters id="__adapters__">
+          <Components>
+            <Adapter id="_8ec99806c2" name="10.12.188.184:8080">
+              <DataItems>
+                <DataItem category="EVENT" id="_8ec99806c2_connection_status" type="CONNECTION_STATUS"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_uri" type="ADAPTER_URI">
+                  <Constraints>
+                    <Value>_10.12.188.184_8080</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="SAMPLE" id="_8ec99806c2_observation_update_rate" statistic="AVERAGE" type="OBSERVATION_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="SAMPLE" id="_8ec99806c2_asset_update_rate" statistic="AVERAGE" type="ASSET_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_software_version" type="ADAPTER_SOFTWARE_VERSION"/>
+                <DataItem category="EVENT" id="_8ec99806c2_mtconnect_version" type="MTCONNECT_VERSION"/>
+              </DataItems>
+            </Adapter>
+          </Components>
+        </Adapters>
+      </Components>
+    </Agent>
+    <Device id="dev" iso841Class="6" name="VMC-3Axis" sampleInterval="10" uuid="000">
+      <Description manufacturer="SystemInsights"/>
+      <DataItems>
+        <DataItem category="EVENT" id="avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" discrete="true" id="dev_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="dev_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="dev_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Axes id="ax" name="Axes">
+          <Components>
+            <Rotary id="c1" name="C">
+              <DataItems>
+                <DataItem category="SAMPLE" id="c2" name="Sspeed" nativeUnits="REVOLUTION/MINUTE" subType="ACTUAL" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE">
+                  <Source>spindle_speed</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="c3" name="Sovr" nativeUnits="PERCENT" subType="OVERRIDE" type="SPINDLE_SPEED" units="PERCENT">
+                  <Source>SspeedOvr</Source>
+                </DataItem>
+                <DataItem category="EVENT" id="cm" name="Cmode" type="ROTARY_MODE">
+                  <Constraints>
+                    <Value>SPINDLE</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="CONDITION" id="Cloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Csystem" type="SYSTEM"/>
+                <DataItem category="SAMPLE" id="cl3" name="Cload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+              </DataItems>
+            </Rotary>
+            <Linear id="x1" name="X">
+              <DataItems>
+                <DataItem category="SAMPLE" id="x2" name="Xact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="x3" name="Xcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="n3" name="Xload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Xloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Xsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="y1" name="Y">
+              <DataItems>
+                <DataItem category="SAMPLE" id="y2" name="Yact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y3" name="Ycom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y4" name="Yload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Yloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Ysystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="z1" name="Z">
+              <DataItems>
+                <DataItem category="SAMPLE" id="z2" name="Zact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z3" name="Zcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z4" name="Zload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Zloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Zsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+          </Components>
+        </Axes>
+        <Controller id="cn1" name="controller">
+          <DataItems>
+            <DataItem category="EVENT" id="msg" type="MESSAGE"/>
+            <DataItem category="EVENT" id="estop" type="EMERGENCY_STOP"/>
+            <DataItem category="CONDITION" id="clp" type="LOGIC_PROGRAM"/>
+            <DataItem category="CONDITION" id="motion" type="MOTION_PROGRAM"/>
+            <DataItem category="CONDITION" id="system" type="SYSTEM"/>
+          </DataItems>
+          <Components>
+            <Path id="pth" name="path">
+              <DataItems>
+                <DataItem category="EVENT" id="cn2" name="block" type="BLOCK"/>
+                <DataItem category="EVENT" id="cn3" name="mode" type="CONTROLLER_MODE"/>
+                <DataItem category="EVENT" id="cn4" name="line" type="LINE"/>
+                <DataItem category="EVENT" id="cn5" name="program" type="PROGRAM"/>
+                <DataItem category="EVENT" id="cn6" name="execution" type="EXECUTION"/>
+                <DataItem category="EVENT" id="cnt1" name="tool_id" type="TOOL_ID"/>
+                <DataItem category="SAMPLE" id="Ppos" nativeUnits="MILLIMETER_3D" subType="ACTUAL" type="PATH_POSITION" units="MILLIMETER_3D"/>
+                <DataItem category="SAMPLE" id="Frt" nativeUnits="MILLIMETER/SECOND" type="PATH_FEEDRATE" units="MILLIMETER/SECOND">
+                  <Source>path_feedrate</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="Fovr" nativeUnits="PERCENT" type="PATH_FEEDRATE" units="PERCENT">
+                  <Source>feed_ovr</Source>
+                </DataItem>
+              </DataItems>
+            </Path>
+          </Components>
+        </Controller>
+        <Systems id="systems" name="systems">
+          <Components>
+            <Electric id="el" name="electric">
+              <DataItems>
+                <DataItem category="EVENT" id="p2" name="power" type="POWER_STATE"/>
+              </DataItems>
+            </Electric>
+            <Coolant id="cool" name="coolant">
+              <DataItems>
+                <DataItem category="CONDITION" id="clow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="coolpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="filter" type="x:FILTER"/>
+                <DataItem category="CONDITION" id="coolantmotor" type="ACTUATOR"/>
+              </DataItems>
+            </Coolant>
+            <Hydraulic id="hsys" name="hydrolic">
+              <DataItems>
+                <DataItem category="CONDITION" id="hlow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="hpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="htemp" type="TEMPERATURE"/>
+              </DataItems>
+            </Hydraulic>
+          </Components>
+        </Systems>
+      </Components>
+    </Device>
+  </Devices>
+</MTConnectDevices>
+
+2025-09-05 13:10:18.268 DEBUG [44536] [MTConnectAdapter::init@91] Connecting to the MQTT server...
+2025-09-05 13:10:18.424 DEBUG [41092] [CallBack::connected@129] key: Probe/Query/Request/adapter1, value:0
+
+2025-09-05 13:10:18.453 DEBUG [41092] [CallBack::connected@129] key: Probe/Set/Request/adapter1, value:0
+
+2025-09-05 13:10:18.454 DEBUG [41092] [CallBack::connected@129] key: Probe/Version/Response/adapter1, value:1
+
+2025-09-05 13:10:18.455 DEBUG [41092] [CallBack::connected@129] key: Query/Request/adapter1, value:0
+
+2025-09-05 13:10:18.456 DEBUG [41092] [CallBack::connected@129] key: Register/Response/adapter1, value:1
+
+2025-09-05 13:10:18.491 DEBUG [41092] [CallBack::connected@129] key: Set/Request/adapter1, value:0
+
+2025-09-05 13:11:03.452 DEBUG [45488] [MTConnectAdapter::init@60] Request failed, error: 
+2025-09-05 13:11:03.456 DEBUG [45488] [MTConnectAdapter::init@63] Request failed, error: 
+2025-09-05 13:11:03.456 DEBUG [45488] [DeviceModel::parse@19] dev
+2025-09-05 13:11:03.462 DEBUG [45488] [DeviceModel::parse@131] model:{"description":"A NC_LINK instance given by NC_LINK Group","devices":[{"components":[{"components":[{"dataItems":[{"datatype":"string","description":"Sspeed","id":"c2","name":"Sspeed","setable":false,"source":"spindle_speed","type":"SPINDLE_SPEED","units":"REVOLUTION/MINUTE","value":""},{"datatype":"string","description":"Sovr","id":"c3","name":"Sovr","setable":false,"source":"SspeedOvr","type":"SPINDLE_SPEED","units":"PERCENT","value":""},{"datatype":"string","description":"Cmode","id":"cm","name":"Cmode","setable":false,"source":"","type":"ROTARY_MODE","units":"","value":""},{"datatype":"string","description":"","id":"Cloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Csystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""},{"datatype":"string","description":"Cload","id":"cl3","name":"Cload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""}],"description":"","id":"c1","name":"C","number":"","type":"Rotary"},{"dataItems":[{"datatype":"string","description":"Xact","id":"x2","name":"Xact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xcom","id":"x3","name":"Xcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xload","id":"n3","name":"Xload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Xloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Xsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"x1","name":"X","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Yact","id":"y2","name":"Yact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Ycom","id":"y3","name":"Ycom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Yload","id":"y4","name":"Yload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Yloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Ysystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"y1","name":"Y","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Zact","id":"z2","name":"Zact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zcom","id":"z3","name":"Zcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zload","id":"z4","name":"Zload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Zloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Zsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"z1","name":"Z","number":"","type":"Linear"}],"configs":[],"dataItems":[],"description":"","id":"ax","name":"Axes","number":"","type":"Axes"},{"components":[{"dataItems":[{"datatype":"string","description":"block","id":"cn2","name":"block","setable":false,"source":"","type":"BLOCK","units":"","value":""},{"datatype":"string","description":"mode","id":"cn3","name":"mode","setable":false,"source":"","type":"CONTROLLER_MODE","units":"","value":""},{"datatype":"string","description":"line","id":"cn4","name":"line","setable":false,"source":"","type":"LINE","units":"","value":""},{"datatype":"string","description":"program","id":"cn5","name":"program","setable":false,"source":"","type":"PROGRAM","units":"","value":""},{"datatype":"string","description":"execution","id":"cn6","name":"execution","setable":false,"source":"","type":"EXECUTION","units":"","value":""},{"datatype":"string","description":"tool_id","id":"cnt1","name":"tool_id","setable":false,"source":"","type":"TOOL_ID","units":"","value":""},{"datatype":"string","description":"","id":"Ppos","name":"","setable":false,"source":"","type":"PATH_POSITION","units":"MILLIMETER_3D","value":""},{"datatype":"string","description":"","id":"Frt","name":"","setable":false,"source":"path_feedrate","type":"PATH_FEEDRATE","units":"MILLIMETER/SECOND","value":""},{"datatype":"string","description":"","id":"Fovr","name":"","setable":false,"source":"feed_ovr","type":"PATH_FEEDRATE","units":"PERCENT","value":""}],"description":"","id":"pth","name":"path","number":"","type":"Path"}],"configs":[],"dataItems":[{"id":"msg","type":"MESSAGE"},{"id":"estop","type":"EMERGENCY_STOP"},{"id":"clp","type":"LOGIC_PROGRAM"},{"id":"motion","type":"MOTION_PROGRAM"},{"id":"system","type":"SYSTEM"}],"description":"","id":"cn1","name":"controller","number":"","type":"Controller"},{"components":[{"dataItems":[{"datatype":"string","description":"power","id":"p2","name":"power","setable":false,"source":"","type":"POWER_STATE","units":"","value":""}],"description":"","id":"el","name":"electric","number":"","type":"Electric"},{"dataItems":[{"datatype":"string","description":"","id":"clow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"coolpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"filter","name":"","setable":false,"source":"","type":"x:FILTER","units":"","value":""},{"datatype":"string","description":"","id":"coolantmotor","name":"","setable":false,"source":"","type":"ACTUATOR","units":"","value":""}],"description":"","id":"cool","name":"coolant","number":"","type":"Coolant"},{"dataItems":[{"datatype":"string","description":"","id":"hlow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"hpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"htemp","name":"","setable":false,"source":"","type":"TEMPERATURE","units":"","value":""}],"description":"","id":"hsys","name":"hydrolic","number":"","type":"Hydraulic"}],"configs":[],"dataItems":[],"description":"","id":"systems","name":"systems","number":"","type":"Systems"}],"configs":[{"description":"sample channel","id":"sample01","ids":[{"id":"avail"},{"id":"dev_asset_chg"},{"id":"dev_asset_rem"},{"id":"dev_asset_count"},{"id":"c2"},{"id":"c3"},{"id":"cm"},{"id":"Cloadc"},{"id":"Csystem"},{"id":"cl3"},{"id":"x2"},{"id":"x3"},{"id":"n3"},{"id":"Xloadc"},{"id":"Xsystem"},{"id":"y2"},{"id":"y3"},{"id":"y4"},{"id":"Yloadc"},{"id":"Ysystem"},{"id":"z2"},{"id":"z3"},{"id":"z4"},{"id":"Zloadc"},{"id":"Zsystem"},{"id":"msg"},{"id":"estop"},{"id":"clp"},{"id":"motion"},{"id":"system"},{"id":"cn2"},{"id":"cn3"},{"id":"cn4"},{"id":"cn5"},{"id":"cn6"},{"id":"cnt1"},{"id":"Ppos"},{"id":"Frt"},{"id":"Fovr"},{"id":"p2"},{"id":"clow"},{"id":"coolpres"},{"id":"filter"},{"id":"coolantmotor"},{"id":"hlow"},{"id":"hpres"},{"id":"htemp"}],"name":"sample object","sampleInterval":1000,"type":"SAMPLE_CHANNEL","uploadInterval":1000}],"dataItems":[{"id":"avail","type":"AVAILABILITY"},{"id":"dev_asset_chg","type":"ASSET_CHANGED"},{"id":"dev_asset_rem","type":"ASSET_REMOVED"},{"id":"dev_asset_count","type":"ASSET_COUNT"}],"description":"","guid":"000","id":"dev","name":"VMC-3Axis","number":"000","type":"MACHINE","version":"adapter1"}],"id":"adapter1","name":"NC_LINK_PROBE","type":"NC_LINK_ROOT","version":"1.1.0"}
+2025-09-05 13:11:03.463 DEBUG [45488] [MTConnectAdapter::init@67] <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/styles/styles.xsl"?>
+<MTConnectDevices xmlns:m="urn:mtconnect.org:MTConnectDevices:2.0" xmlns="urn:mtconnect.org:MTConnectDevices:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:2.0 /schemas/MTConnectDevices_2.0.xsd">
+  <Header creationTime="2025-09-05T05:11:03Z" sender="LAPTOP-SKB2GCJC" instanceId="1757048842" version="2.0.0.11" deviceModelChangeTime="2025-09-05T05:07:22.801392Z" assetBufferSize="1024" assetCount="0" bufferSize="131072"/>
+  <Devices>
+    <Agent id="agent_2cde48001122" mtconnectVersion="2.0" name="Agent" uuid="0b49a3a0-18ca-0139-8748-2cde48001122">
+      <DataItems>
+        <DataItem category="EVENT" id="agent_avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" id="device_added" type="DEVICE_ADDED"/>
+        <DataItem category="EVENT" id="device_removed" type="DEVICE_REMOVED"/>
+        <DataItem category="EVENT" id="device_changed" type="DEVICE_CHANGED"/>
+        <DataItem category="EVENT" discrete="true" id="agent_2cde48001122_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Adapters id="__adapters__">
+          <Components>
+            <Adapter id="_8ec99806c2" name="10.12.188.184:8080">
+              <DataItems>
+                <DataItem category="EVENT" id="_8ec99806c2_connection_status" type="CONNECTION_STATUS"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_uri" type="ADAPTER_URI">
+                  <Constraints>
+                    <Value>_10.12.188.184_8080</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="SAMPLE" id="_8ec99806c2_observation_update_rate" statistic="AVERAGE" type="OBSERVATION_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="SAMPLE" id="_8ec99806c2_asset_update_rate" statistic="AVERAGE" type="ASSET_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_software_version" type="ADAPTER_SOFTWARE_VERSION"/>
+                <DataItem category="EVENT" id="_8ec99806c2_mtconnect_version" type="MTCONNECT_VERSION"/>
+              </DataItems>
+            </Adapter>
+          </Components>
+        </Adapters>
+      </Components>
+    </Agent>
+    <Device id="dev" iso841Class="6" name="VMC-3Axis" sampleInterval="10" uuid="000">
+      <Description manufacturer="SystemInsights"/>
+      <DataItems>
+        <DataItem category="EVENT" id="avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" discrete="true" id="dev_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="dev_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="dev_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Axes id="ax" name="Axes">
+          <Components>
+            <Rotary id="c1" name="C">
+              <DataItems>
+                <DataItem category="SAMPLE" id="c2" name="Sspeed" nativeUnits="REVOLUTION/MINUTE" subType="ACTUAL" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE">
+                  <Source>spindle_speed</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="c3" name="Sovr" nativeUnits="PERCENT" subType="OVERRIDE" type="SPINDLE_SPEED" units="PERCENT">
+                  <Source>SspeedOvr</Source>
+                </DataItem>
+                <DataItem category="EVENT" id="cm" name="Cmode" type="ROTARY_MODE">
+                  <Constraints>
+                    <Value>SPINDLE</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="CONDITION" id="Cloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Csystem" type="SYSTEM"/>
+                <DataItem category="SAMPLE" id="cl3" name="Cload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+              </DataItems>
+            </Rotary>
+            <Linear id="x1" name="X">
+              <DataItems>
+                <DataItem category="SAMPLE" id="x2" name="Xact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="x3" name="Xcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="n3" name="Xload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Xloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Xsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="y1" name="Y">
+              <DataItems>
+                <DataItem category="SAMPLE" id="y2" name="Yact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y3" name="Ycom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y4" name="Yload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Yloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Ysystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="z1" name="Z">
+              <DataItems>
+                <DataItem category="SAMPLE" id="z2" name="Zact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z3" name="Zcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z4" name="Zload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Zloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Zsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+          </Components>
+        </Axes>
+        <Controller id="cn1" name="controller">
+          <DataItems>
+            <DataItem category="EVENT" id="msg" type="MESSAGE"/>
+            <DataItem category="EVENT" id="estop" type="EMERGENCY_STOP"/>
+            <DataItem category="CONDITION" id="clp" type="LOGIC_PROGRAM"/>
+            <DataItem category="CONDITION" id="motion" type="MOTION_PROGRAM"/>
+            <DataItem category="CONDITION" id="system" type="SYSTEM"/>
+          </DataItems>
+          <Components>
+            <Path id="pth" name="path">
+              <DataItems>
+                <DataItem category="EVENT" id="cn2" name="block" type="BLOCK"/>
+                <DataItem category="EVENT" id="cn3" name="mode" type="CONTROLLER_MODE"/>
+                <DataItem category="EVENT" id="cn4" name="line" type="LINE"/>
+                <DataItem category="EVENT" id="cn5" name="program" type="PROGRAM"/>
+                <DataItem category="EVENT" id="cn6" name="execution" type="EXECUTION"/>
+                <DataItem category="EVENT" id="cnt1" name="tool_id" type="TOOL_ID"/>
+                <DataItem category="SAMPLE" id="Ppos" nativeUnits="MILLIMETER_3D" subType="ACTUAL" type="PATH_POSITION" units="MILLIMETER_3D"/>
+                <DataItem category="SAMPLE" id="Frt" nativeUnits="MILLIMETER/SECOND" type="PATH_FEEDRATE" units="MILLIMETER/SECOND">
+                  <Source>path_feedrate</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="Fovr" nativeUnits="PERCENT" type="PATH_FEEDRATE" units="PERCENT">
+                  <Source>feed_ovr</Source>
+                </DataItem>
+              </DataItems>
+            </Path>
+          </Components>
+        </Controller>
+        <Systems id="systems" name="systems">
+          <Components>
+            <Electric id="el" name="electric">
+              <DataItems>
+                <DataItem category="EVENT" id="p2" name="power" type="POWER_STATE"/>
+              </DataItems>
+            </Electric>
+            <Coolant id="cool" name="coolant">
+              <DataItems>
+                <DataItem category="CONDITION" id="clow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="coolpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="filter" type="x:FILTER"/>
+                <DataItem category="CONDITION" id="coolantmotor" type="ACTUATOR"/>
+              </DataItems>
+            </Coolant>
+            <Hydraulic id="hsys" name="hydrolic">
+              <DataItems>
+                <DataItem category="CONDITION" id="hlow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="hpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="htemp" type="TEMPERATURE"/>
+              </DataItems>
+            </Hydraulic>
+          </Components>
+        </Systems>
+      </Components>
+    </Device>
+  </Devices>
+</MTConnectDevices>
+
+2025-09-05 13:11:03.469 DEBUG [45488] [MTConnectAdapter::init@91] Connecting to the MQTT server...
+2025-09-05 13:11:03.593 DEBUG [45760] [CallBack::connected@129] key: Probe/Query/Request/adapter1, value:0
+
+2025-09-05 13:11:03.607 DEBUG [45760] [CallBack::connected@129] key: Probe/Set/Request/adapter1, value:0
+
+2025-09-05 13:11:03.642 DEBUG [45760] [CallBack::connected@129] key: Probe/Version/Response/adapter1, value:1
+
+2025-09-05 13:11:03.642 DEBUG [45760] [CallBack::connected@129] key: Query/Request/adapter1, value:0
+
+2025-09-05 13:11:03.643 DEBUG [45760] [CallBack::connected@129] key: Register/Response/adapter1, value:1
+
+2025-09-05 13:11:03.647 DEBUG [45760] [CallBack::connected@129] key: Set/Request/adapter1, value:0
+
+2025-09-05 14:51:31.805 DEBUG [44228] [MTConnectAdapter::init@60] Request failed, error: 
+2025-09-05 14:51:31.811 DEBUG [44228] [MTConnectAdapter::init@63] Request failed, error: 
+2025-09-05 14:51:31.812 DEBUG [44228] [DeviceModel::parse@19] dev
+2025-09-05 14:51:31.820 DEBUG [44228] [DeviceModel::parse@131] model:{"description":"A NC_LINK instance given by NC_LINK Group","devices":[{"components":[{"components":[{"dataItems":[{"datatype":"string","description":"Sspeed","id":"c2","name":"Sspeed","setable":false,"source":"spindle_speed","type":"SPINDLE_SPEED","units":"REVOLUTION/MINUTE","value":""},{"datatype":"string","description":"Sovr","id":"c3","name":"Sovr","setable":false,"source":"SspeedOvr","type":"SPINDLE_SPEED","units":"PERCENT","value":""},{"datatype":"string","description":"Cmode","id":"cm","name":"Cmode","setable":false,"source":"","type":"ROTARY_MODE","units":"","value":""},{"datatype":"string","description":"","id":"Cloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Csystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""},{"datatype":"string","description":"Cload","id":"cl3","name":"Cload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""}],"description":"","id":"c1","name":"C","number":"","type":"Rotary"},{"dataItems":[{"datatype":"string","description":"Xact","id":"x2","name":"Xact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xcom","id":"x3","name":"Xcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Xload","id":"n3","name":"Xload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Xloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Xsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"x1","name":"X","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Yact","id":"y2","name":"Yact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Ycom","id":"y3","name":"Ycom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Yload","id":"y4","name":"Yload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Yloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Ysystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"y1","name":"Y","number":"","type":"Linear"},{"dataItems":[{"datatype":"string","description":"Zact","id":"z2","name":"Zact","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zcom","id":"z3","name":"Zcom","setable":false,"source":"","type":"POSITION","units":"MILLIMETER","value":""},{"datatype":"string","description":"Zload","id":"z4","name":"Zload","setable":false,"source":"","type":"LOAD","units":"PERCENT","value":""},{"datatype":"string","description":"","id":"Zloadc","name":"","setable":false,"source":"","type":"LOAD","units":"","value":""},{"datatype":"string","description":"","id":"Zsystem","name":"","setable":false,"source":"","type":"SYSTEM","units":"","value":""}],"description":"","id":"z1","name":"Z","number":"","type":"Linear"}],"configs":[],"dataItems":[],"description":"","id":"ax","name":"Axes","number":"","type":"Axes"},{"components":[{"dataItems":[{"datatype":"string","description":"block","id":"cn2","name":"block","setable":false,"source":"","type":"BLOCK","units":"","value":""},{"datatype":"string","description":"mode","id":"cn3","name":"mode","setable":false,"source":"","type":"CONTROLLER_MODE","units":"","value":""},{"datatype":"string","description":"line","id":"cn4","name":"line","setable":false,"source":"","type":"LINE","units":"","value":""},{"datatype":"string","description":"program","id":"cn5","name":"program","setable":false,"source":"","type":"PROGRAM","units":"","value":""},{"datatype":"string","description":"execution","id":"cn6","name":"execution","setable":false,"source":"","type":"EXECUTION","units":"","value":""},{"datatype":"string","description":"tool_id","id":"cnt1","name":"tool_id","setable":false,"source":"","type":"TOOL_ID","units":"","value":""},{"datatype":"string","description":"","id":"Ppos","name":"","setable":false,"source":"","type":"PATH_POSITION","units":"MILLIMETER_3D","value":""},{"datatype":"string","description":"","id":"Frt","name":"","setable":false,"source":"path_feedrate","type":"PATH_FEEDRATE","units":"MILLIMETER/SECOND","value":""},{"datatype":"string","description":"","id":"Fovr","name":"","setable":false,"source":"feed_ovr","type":"PATH_FEEDRATE","units":"PERCENT","value":""}],"description":"","id":"pth","name":"path","number":"","type":"Path"}],"configs":[],"dataItems":[{"id":"msg","type":"MESSAGE"},{"id":"estop","type":"EMERGENCY_STOP"},{"id":"clp","type":"LOGIC_PROGRAM"},{"id":"motion","type":"MOTION_PROGRAM"},{"id":"system","type":"SYSTEM"}],"description":"","id":"cn1","name":"controller","number":"","type":"Controller"},{"components":[{"dataItems":[{"datatype":"string","description":"power","id":"p2","name":"power","setable":false,"source":"","type":"POWER_STATE","units":"","value":""}],"description":"","id":"el","name":"electric","number":"","type":"Electric"},{"dataItems":[{"datatype":"string","description":"","id":"clow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"coolpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"filter","name":"","setable":false,"source":"","type":"x:FILTER","units":"","value":""},{"datatype":"string","description":"","id":"coolantmotor","name":"","setable":false,"source":"","type":"ACTUATOR","units":"","value":""}],"description":"","id":"cool","name":"coolant","number":"","type":"Coolant"},{"dataItems":[{"datatype":"string","description":"","id":"hlow","name":"","setable":false,"source":"","type":"LEVEL","units":"","value":""},{"datatype":"string","description":"","id":"hpres","name":"","setable":false,"source":"","type":"PRESSURE","units":"","value":""},{"datatype":"string","description":"","id":"htemp","name":"","setable":false,"source":"","type":"TEMPERATURE","units":"","value":""}],"description":"","id":"hsys","name":"hydrolic","number":"","type":"Hydraulic"}],"configs":[],"dataItems":[],"description":"","id":"systems","name":"systems","number":"","type":"Systems"}],"configs":[{"description":"sample channel","id":"sample01","ids":[{"id":"avail"},{"id":"dev_asset_chg"},{"id":"dev_asset_rem"},{"id":"dev_asset_count"},{"id":"c2"},{"id":"c3"},{"id":"cm"},{"id":"Cloadc"},{"id":"Csystem"},{"id":"cl3"},{"id":"x2"},{"id":"x3"},{"id":"n3"},{"id":"Xloadc"},{"id":"Xsystem"},{"id":"y2"},{"id":"y3"},{"id":"y4"},{"id":"Yloadc"},{"id":"Ysystem"},{"id":"z2"},{"id":"z3"},{"id":"z4"},{"id":"Zloadc"},{"id":"Zsystem"},{"id":"msg"},{"id":"estop"},{"id":"clp"},{"id":"motion"},{"id":"system"},{"id":"cn2"},{"id":"cn3"},{"id":"cn4"},{"id":"cn5"},{"id":"cn6"},{"id":"cnt1"},{"id":"Ppos"},{"id":"Frt"},{"id":"Fovr"},{"id":"p2"},{"id":"clow"},{"id":"coolpres"},{"id":"filter"},{"id":"coolantmotor"},{"id":"hlow"},{"id":"hpres"},{"id":"htemp"}],"name":"sample object","sampleInterval":1000,"type":"SAMPLE_CHANNEL","uploadInterval":1000}],"dataItems":[{"id":"avail","type":"AVAILABILITY"},{"id":"dev_asset_chg","type":"ASSET_CHANGED"},{"id":"dev_asset_rem","type":"ASSET_REMOVED"},{"id":"dev_asset_count","type":"ASSET_COUNT"}],"description":"","guid":"000","id":"dev","name":"VMC-3Axis","number":"000","type":"MACHINE","version":"adapter1"}],"id":"adapter1","name":"NC_LINK_PROBE","type":"NC_LINK_ROOT","version":"1.1.0"}
+2025-09-05 14:51:31.821 DEBUG [44228] [MTConnectAdapter::init@67] <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/styles/styles.xsl"?>
+<MTConnectDevices xmlns:m="urn:mtconnect.org:MTConnectDevices:2.0" xmlns="urn:mtconnect.org:MTConnectDevices:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:2.0 /schemas/MTConnectDevices_2.0.xsd">
+  <Header creationTime="2025-09-05T06:51:31Z" sender="LAPTOP-SKB2GCJC" instanceId="1757048842" version="2.0.0.11" deviceModelChangeTime="2025-09-05T05:07:22.801392Z" assetBufferSize="1024" assetCount="0" bufferSize="131072"/>
+  <Devices>
+    <Agent id="agent_2cde48001122" mtconnectVersion="2.0" name="Agent" uuid="0b49a3a0-18ca-0139-8748-2cde48001122">
+      <DataItems>
+        <DataItem category="EVENT" id="agent_avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" id="device_added" type="DEVICE_ADDED"/>
+        <DataItem category="EVENT" id="device_removed" type="DEVICE_REMOVED"/>
+        <DataItem category="EVENT" id="device_changed" type="DEVICE_CHANGED"/>
+        <DataItem category="EVENT" discrete="true" id="agent_2cde48001122_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="agent_2cde48001122_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Adapters id="__adapters__">
+          <Components>
+            <Adapter id="_8ec99806c2" name="10.12.188.184:8080">
+              <DataItems>
+                <DataItem category="EVENT" id="_8ec99806c2_connection_status" type="CONNECTION_STATUS"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_uri" type="ADAPTER_URI">
+                  <Constraints>
+                    <Value>_10.12.188.184_8080</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="SAMPLE" id="_8ec99806c2_observation_update_rate" statistic="AVERAGE" type="OBSERVATION_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="SAMPLE" id="_8ec99806c2_asset_update_rate" statistic="AVERAGE" type="ASSET_UPDATE_RATE" units="COUNT/SECOND"/>
+                <DataItem category="EVENT" id="_8ec99806c2_adapter_software_version" type="ADAPTER_SOFTWARE_VERSION"/>
+                <DataItem category="EVENT" id="_8ec99806c2_mtconnect_version" type="MTCONNECT_VERSION"/>
+              </DataItems>
+            </Adapter>
+          </Components>
+        </Adapters>
+      </Components>
+    </Agent>
+    <Device id="dev" iso841Class="6" name="VMC-3Axis" sampleInterval="10" uuid="000">
+      <Description manufacturer="SystemInsights"/>
+      <DataItems>
+        <DataItem category="EVENT" id="avail" type="AVAILABILITY"/>
+        <DataItem category="EVENT" discrete="true" id="dev_asset_chg" type="ASSET_CHANGED"/>
+        <DataItem category="EVENT" id="dev_asset_rem" type="ASSET_REMOVED"/>
+        <DataItem category="EVENT" id="dev_asset_count" representation="DATA_SET" type="ASSET_COUNT"/>
+      </DataItems>
+      <Components>
+        <Axes id="ax" name="Axes">
+          <Components>
+            <Rotary id="c1" name="C">
+              <DataItems>
+                <DataItem category="SAMPLE" id="c2" name="Sspeed" nativeUnits="REVOLUTION/MINUTE" subType="ACTUAL" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE">
+                  <Source>spindle_speed</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="c3" name="Sovr" nativeUnits="PERCENT" subType="OVERRIDE" type="SPINDLE_SPEED" units="PERCENT">
+                  <Source>SspeedOvr</Source>
+                </DataItem>
+                <DataItem category="EVENT" id="cm" name="Cmode" type="ROTARY_MODE">
+                  <Constraints>
+                    <Value>SPINDLE</Value>
+                  </Constraints>
+                </DataItem>
+                <DataItem category="CONDITION" id="Cloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Csystem" type="SYSTEM"/>
+                <DataItem category="SAMPLE" id="cl3" name="Cload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+              </DataItems>
+            </Rotary>
+            <Linear id="x1" name="X">
+              <DataItems>
+                <DataItem category="SAMPLE" id="x2" name="Xact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="x3" name="Xcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="n3" name="Xload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Xloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Xsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="y1" name="Y">
+              <DataItems>
+                <DataItem category="SAMPLE" id="y2" name="Yact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y3" name="Ycom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="y4" name="Yload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Yloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Ysystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+            <Linear id="z1" name="Z">
+              <DataItems>
+                <DataItem category="SAMPLE" id="z2" name="Zact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z3" name="Zcom" nativeUnits="MILLIMETER" subType="COMMANDED" type="POSITION" units="MILLIMETER"/>
+                <DataItem category="SAMPLE" id="z4" name="Zload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                <DataItem category="CONDITION" id="Zloadc" type="LOAD"/>
+                <DataItem category="CONDITION" id="Zsystem" type="SYSTEM"/>
+              </DataItems>
+            </Linear>
+          </Components>
+        </Axes>
+        <Controller id="cn1" name="controller">
+          <DataItems>
+            <DataItem category="EVENT" id="msg" type="MESSAGE"/>
+            <DataItem category="EVENT" id="estop" type="EMERGENCY_STOP"/>
+            <DataItem category="CONDITION" id="clp" type="LOGIC_PROGRAM"/>
+            <DataItem category="CONDITION" id="motion" type="MOTION_PROGRAM"/>
+            <DataItem category="CONDITION" id="system" type="SYSTEM"/>
+          </DataItems>
+          <Components>
+            <Path id="pth" name="path">
+              <DataItems>
+                <DataItem category="EVENT" id="cn2" name="block" type="BLOCK"/>
+                <DataItem category="EVENT" id="cn3" name="mode" type="CONTROLLER_MODE"/>
+                <DataItem category="EVENT" id="cn4" name="line" type="LINE"/>
+                <DataItem category="EVENT" id="cn5" name="program" type="PROGRAM"/>
+                <DataItem category="EVENT" id="cn6" name="execution" type="EXECUTION"/>
+                <DataItem category="EVENT" id="cnt1" name="tool_id" type="TOOL_ID"/>
+                <DataItem category="SAMPLE" id="Ppos" nativeUnits="MILLIMETER_3D" subType="ACTUAL" type="PATH_POSITION" units="MILLIMETER_3D"/>
+                <DataItem category="SAMPLE" id="Frt" nativeUnits="MILLIMETER/SECOND" type="PATH_FEEDRATE" units="MILLIMETER/SECOND">
+                  <Source>path_feedrate</Source>
+                </DataItem>
+                <DataItem category="SAMPLE" id="Fovr" nativeUnits="PERCENT" type="PATH_FEEDRATE" units="PERCENT">
+                  <Source>feed_ovr</Source>
+                </DataItem>
+              </DataItems>
+            </Path>
+          </Components>
+        </Controller>
+        <Systems id="systems" name="systems">
+          <Components>
+            <Electric id="el" name="electric">
+              <DataItems>
+                <DataItem category="EVENT" id="p2" name="power" type="POWER_STATE"/>
+              </DataItems>
+            </Electric>
+            <Coolant id="cool" name="coolant">
+              <DataItems>
+                <DataItem category="CONDITION" id="clow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="coolpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="filter" type="x:FILTER"/>
+                <DataItem category="CONDITION" id="coolantmotor" type="ACTUATOR"/>
+              </DataItems>
+            </Coolant>
+            <Hydraulic id="hsys" name="hydrolic">
+              <DataItems>
+                <DataItem category="CONDITION" id="hlow" type="LEVEL"/>
+                <DataItem category="CONDITION" id="hpres" type="PRESSURE"/>
+                <DataItem category="CONDITION" id="htemp" type="TEMPERATURE"/>
+              </DataItems>
+            </Hydraulic>
+          </Components>
+        </Systems>
+      </Components>
+    </Device>
+  </Devices>
+</MTConnectDevices>
+
+2025-09-05 14:51:31.838 DEBUG [44228] [MTConnectAdapter::init@91] Connecting to the MQTT server...
+2025-09-05 14:51:32.056 DEBUG [8956] [CallBack::connected@129] key: Probe/Query/Request/adapter1, value:0
+
+2025-09-05 14:51:32.059 DEBUG [8956] [CallBack::connected@129] key: Probe/Set/Request/adapter1, value:0
+
+2025-09-05 14:51:32.087 DEBUG [8956] [CallBack::connected@129] key: Probe/Version/Response/adapter1, value:1
+
+2025-09-05 14:51:32.092 DEBUG [8956] [CallBack::connected@129] key: Query/Request/adapter1, value:0
+
+2025-09-05 14:51:32.102 DEBUG [8956] [CallBack::connected@129] key: Register/Response/adapter1, value:1
+
+2025-09-05 14:51:32.103 DEBUG [8956] [CallBack::connected@129] key: Set/Request/adapter1, value:0
+
+2025-09-05 15:14:34.050 DEBUG [43944] [MTConnectAdapter::init@60] Request failed, error: 
+2025-09-05 15:14:36.086 DEBUG [43944] [MTConnectAdapter::init@63] Request failed, error: 

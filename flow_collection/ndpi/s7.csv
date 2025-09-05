@@ -1,0 +1,67 @@
+{
+  "FlowCollection": [
+    {
+      "source_ipport": "192.168.1.40:49176",
+      "dest_ipport": "192.168.1.10:102",
+      "first_time": "2014-8-20-17:59:59",
+      "last_time": "2014-8-20-18:0:5",
+      "flow_duration(s)": 5.997138,
+      "flow_bytes": 120,
+      "protocol": "s7comm"
+    },
+    {
+      "source_ipport": "192.168.1.10:4185",
+      "dest_ipport": "192.168.1.40:102",
+      "first_time": "2014-8-20-18:0:3",
+      "last_time": "2014-8-20-18:0:4",
+      "flow_duration(s)": 0.426066,
+      "flow_bytes": 3381,
+      "protocol": "s7comm"
+    },
+    {
+      "source_ipport": "192.168.1.10:4186",
+      "dest_ipport": "192.168.1.40:102",
+      "first_time": "2014-8-20-18:0:4",
+      "last_time": "2014-8-20-18:0:4",
+      "flow_duration(s)": 0.031444,
+      "flow_bytes": 828,
+      "protocol": "s7comm"
+    },
+    {
+      "source_ipport": "192.168.1.10:4187",
+      "dest_ipport": "192.168.1.40:102",
+      "first_time": "2014-8-20-18:0:4",
+      "last_time": "2014-8-20-18:0:4",
+      "flow_duration(s)": 0.015811,
+      "flow_bytes": 538,
+      "protocol": "s7comm"
+    },
+    {
+      "source_ipport": "192.168.1.40:102",
+      "dest_ipport": "192.168.1.10:4185",
+      "first_time": "2014-8-20-18:0:3",
+      "last_time": "2014-8-20-18:0:4",
+      "flow_duration(s)": 0.207999,
+      "flow_bytes": 2234,
+      "protocol": "s7comm"
+    },
+    {
+      "source_ipport": "192.168.1.40:102",
+      "dest_ipport": "192.168.1.10:4186",
+      "first_time": "2014-8-20-18:0:4",
+      "last_time": "2014-8-20-18:0:4",
+      "flow_duration(s)": 0.029979,
+      "flow_bytes": 558,
+      "protocol": "s7comm"
+    },
+    {
+      "source_ipport": "192.168.1.40:102",
+      "dest_ipport": "192.168.1.10:4187",
+      "first_time": "2014-8-20-18:0:4",
+      "last_time": "2014-8-20-18:0:4",
+      "flow_duration(s)": 0.014140,
+      "flow_bytes": 352,
+      "protocol": "s7comm"
+    }
+ ]
+}

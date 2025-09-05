@@ -1,0 +1,265 @@
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:2.0" xmlns="urn:mtconnect.org:MTConnectStreams:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:2.0 /schemas/MTConnectStreams_2.0.xsd">
+  
+  <Header creationTime="2022-09-06T02:07:49Z" sender="PC-20220622IMBG" instanceId="1662429901" version="2.0.0.11" deviceModelChangeTime="2022-09-06T02:05:01.888531Z" bufferSize="131072" nextSequence="398" firstSequence="1" lastSequence="397" />
+  
+  <Streams>
+    
+    <DeviceStream name="Agent" uuid="0b49a3a0-18ca-0139-8748-2cde48001122">
+      
+      <ComponentStream component="Adapter" name="10.12.188.184:8080" componentId="_8ec99806c2">
+        
+        <Samples>
+          
+          <AssetUpdateRate dataItemId="_8ec99806c2_asset_update_rate" sequence="12" statistic="AVERAGE" timestamp="2022-09-06T02:05:01.899148Z">UNAVAILABLE</AssetUpdateRate>
+          
+          <ObservationUpdateRate dataItemId="_8ec99806c2_observation_update_rate" sequence="11" statistic="AVERAGE" timestamp="2022-09-06T02:05:01.89914Z">UNAVAILABLE</ObservationUpdateRate>
+          
+        </Samples>
+        
+        <Events>
+          
+          <AdapterSoftwareVersion dataItemId="_8ec99806c2_adapter_software_version" sequence="13" timestamp="2022-09-06T02:05:01.899154Z">UNAVAILABLE</AdapterSoftwareVersion>
+          
+          <AdapterURI dataItemId="_8ec99806c2_adapter_uri" sequence="10" timestamp="2022-09-06T02:05:01.899134Z">_10.12.188.184_8080</AdapterURI>
+          
+          <ConnectionStatus dataItemId="_8ec99806c2_connection_status" sequence="397" timestamp="2022-09-06T02:06:53.989826Z">LISTENING</ConnectionStatus>
+          
+          <MTConnectVersion dataItemId="_8ec99806c2_mtconnect_version" sequence="9" timestamp="2022-09-06T02:05:01.899127Z">UNAVAILABLE</MTConnectVersion>
+          
+        </Events>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Agent" name="Agent" componentId="agent_2cde48001122">
+        
+        <Events>
+          
+          <AssetChanged assetType="UNAVAILABLE" dataItemId="agent_2cde48001122_asset_chg" sequence="6" timestamp="2022-09-06T02:05:01.899102Z">UNAVAILABLE</AssetChanged>
+          
+          <AssetCountDataSet count="0" dataItemId="agent_2cde48001122_asset_count" sequence="7" timestamp="2022-09-06T02:05:01.899115Z">UNAVAILABLE</AssetCountDataSet>
+          
+          <AssetRemoved assetType="UNAVAILABLE" dataItemId="agent_2cde48001122_asset_rem" sequence="5" timestamp="2022-09-06T02:05:01.898883Z">UNAVAILABLE</AssetRemoved>
+          
+          <Availability dataItemId="agent_avail" sequence="63" timestamp="2022-09-06T02:05:01.899407Z">AVAILABLE</Availability>
+          
+          <DeviceAdded dataItemId="device_added" sequence="62" timestamp="2022-09-06T02:05:01.899403Z">000</DeviceAdded>
+          
+          <DeviceChanged dataItemId="device_changed" sequence="3" timestamp="2022-09-06T02:05:01.898875Z">UNAVAILABLE</DeviceChanged>
+          
+          <DeviceRemoved dataItemId="device_removed" sequence="4" timestamp="2022-09-06T02:05:01.898879Z">UNAVAILABLE</DeviceRemoved>
+          
+        </Events>
+        
+      </ComponentStream>
+      
+    </DeviceStream>
+    
+    <DeviceStream name="VMC-3Axis" uuid="000">
+      
+      <ComponentStream component="Rotary" name="C" componentId="c1">
+        
+        <Samples>
+          
+          <SpindleSpeed dataItemId="c2" name="Sspeed" sequence="14" subType="ACTUAL" timestamp="2022-09-06T02:05:01.899167Z">UNAVAILABLE</SpindleSpeed>
+          
+          <SpindleSpeed dataItemId="c3" name="Sovr" sequence="20" subType="OVERRIDE" timestamp="2022-09-06T02:05:01.899211Z">UNAVAILABLE</SpindleSpeed>
+          
+          <Load dataItemId="cl3" name="Cload" sequence="16" timestamp="2022-09-06T02:05:01.899178Z">UNAVAILABLE</Load>
+          
+        </Samples>
+        
+        <Events>
+          
+          <RotaryMode dataItemId="cm" name="Cmode" sequence="22" timestamp="2022-09-06T02:05:01.899221Z">SPINDLE</RotaryMode>
+          
+        </Events>
+        
+        <Condition>
+          
+          <Unavailable dataItemId="Cloadc" sequence="19" timestamp="2022-09-06T02:05:01.899207Z" type="LOAD" />
+          
+          <Unavailable dataItemId="Csystem" sequence="18" timestamp="2022-09-06T02:05:01.8992Z" type="SYSTEM" />
+          
+        </Condition>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Controller" name="controller" componentId="cn1">
+        
+        <Events>
+          
+          <EmergencyStop dataItemId="estop" sequence="43" timestamp="2022-09-06T02:05:01.899319Z">UNAVAILABLE</EmergencyStop>
+          
+          <Message dataItemId="msg" sequence="42" timestamp="2022-09-06T02:05:01.899315Z">UNAVAILABLE</Message>
+          
+        </Events>
+        
+        <Condition>
+          
+          <Unavailable dataItemId="clp" sequence="44" timestamp="2022-09-06T02:05:01.899323Z" type="LOGIC_PROGRAM" />
+          
+          <Unavailable dataItemId="motion" sequence="47" timestamp="2022-09-06T02:05:01.899334Z" type="MOTION_PROGRAM" />
+          
+          <Unavailable dataItemId="system" sequence="48" timestamp="2022-09-06T02:05:01.899349Z" type="SYSTEM" />
+          
+        </Condition>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Coolant" name="coolant" componentId="cool">
+        
+        <Condition>
+          
+          <Unavailable dataItemId="clow" sequence="54" timestamp="2022-09-06T02:05:01.899372Z" type="LEVEL" />
+          
+          <Unavailable dataItemId="coolantmotor" sequence="57" timestamp="2022-09-06T02:05:01.899383Z" type="ACTUATOR" />
+          
+          <Unavailable dataItemId="coolpres" sequence="55" timestamp="2022-09-06T02:05:01.899375Z" type="PRESSURE" />
+          
+          <Unavailable dataItemId="filter" sequence="56" timestamp="2022-09-06T02:05:01.899379Z" type="X:FILTER" />
+          
+        </Condition>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Device" name="VMC-3Axis" componentId="dev">
+        
+        <Events>
+          
+          <Availability dataItemId="avail" sequence="15" timestamp="2022-09-06T02:05:01.899174Z">UNAVAILABLE</Availability>
+          
+          <AssetChanged assetType="UNAVAILABLE" dataItemId="dev_asset_chg" sequence="29" timestamp="2022-09-06T02:05:01.899254Z">UNAVAILABLE</AssetChanged>
+          
+          <AssetCountDataSet count="0" dataItemId="dev_asset_count" sequence="60" timestamp="2022-09-06T02:05:01.899394Z">UNAVAILABLE</AssetCountDataSet>
+          
+          <AssetRemoved assetType="UNAVAILABLE" dataItemId="dev_asset_rem" sequence="28" timestamp="2022-09-06T02:05:01.89925Z">UNAVAILABLE</AssetRemoved>
+          
+        </Events>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Electric" name="electric" componentId="el">
+        
+        <Events>
+          
+          <PowerState dataItemId="p2" name="power" sequence="46" timestamp="2022-09-06T02:05:01.899331Z">UNAVAILABLE</PowerState>
+          
+        </Events>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Hydraulic" name="hydrolic" componentId="hsys">
+        
+        <Condition>
+          
+          <Unavailable dataItemId="hlow" sequence="45" timestamp="2022-09-06T02:05:01.899327Z" type="LEVEL" />
+          
+          <Unavailable dataItemId="hpres" sequence="58" timestamp="2022-09-06T02:05:01.899387Z" type="PRESSURE" />
+          
+          <Unavailable dataItemId="htemp" sequence="59" timestamp="2022-09-06T02:05:01.89939Z" type="TEMPERATURE" />
+          
+        </Condition>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Path" name="path" componentId="pth">
+        
+        <Samples>
+          
+          <PathFeedrate dataItemId="Fovr" sequence="53" timestamp="2022-09-06T02:05:01.899368Z">UNAVAILABLE</PathFeedrate>
+          
+          <PathFeedrate dataItemId="Frt" sequence="52" timestamp="2022-09-06T02:05:01.899364Z">UNAVAILABLE</PathFeedrate>
+          
+          <PathPosition dataItemId="Ppos" sequence="23" subType="ACTUAL" timestamp="2022-09-06T02:05:01.899225Z">UNAVAILABLE</PathPosition>
+          
+        </Samples>
+        
+        <Events>
+          
+          <Block dataItemId="cn2" name="block" sequence="31" timestamp="2022-09-06T02:05:01.899262Z">UNAVAILABLE</Block>
+          
+          <ControllerMode dataItemId="cn3" name="mode" sequence="33" timestamp="2022-09-06T02:05:01.899271Z">UNAVAILABLE</ControllerMode>
+          
+          <Line dataItemId="cn4" name="line" sequence="35" timestamp="2022-09-06T02:05:01.899279Z">UNAVAILABLE</Line>
+          
+          <Program dataItemId="cn5" name="program" sequence="49" timestamp="2022-09-06T02:05:01.899353Z">UNAVAILABLE</Program>
+          
+          <Execution dataItemId="cn6" name="execution" sequence="50" timestamp="2022-09-06T02:05:01.899356Z">UNAVAILABLE</Execution>
+          
+          <ToolId dataItemId="cnt1" name="tool_id" sequence="51" timestamp="2022-09-06T02:05:01.89936Z">UNAVAILABLE</ToolId>
+          
+        </Events>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Linear" name="X" componentId="x1">
+        
+        <Samples>
+          
+          <Load dataItemId="n3" name="Xload" sequence="27" timestamp="2022-09-06T02:05:01.899246Z">UNAVAILABLE</Load>
+          
+          <Position dataItemId="x2" name="Xact" sequence="24" subType="ACTUAL" timestamp="2022-09-06T02:05:01.899232Z">UNAVAILABLE</Position>
+          
+          <Position dataItemId="x3" name="Xcom" sequence="25" subType="COMMANDED" timestamp="2022-09-06T02:05:01.899237Z">UNAVAILABLE</Position>
+          
+        </Samples>
+        
+        <Condition>
+          
+          <Unavailable dataItemId="Xloadc" sequence="30" timestamp="2022-09-06T02:05:01.899258Z" type="LOAD" />
+          
+          <Unavailable dataItemId="Xsystem" sequence="26" timestamp="2022-09-06T02:05:01.899241Z" type="SYSTEM" />
+          
+        </Condition>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Linear" name="Y" componentId="y1">
+        
+        <Samples>
+          
+          <Position dataItemId="y2" name="Yact" sequence="32" subType="ACTUAL" timestamp="2022-09-06T02:05:01.899266Z">UNAVAILABLE</Position>
+          
+          <Position dataItemId="y3" name="Ycom" sequence="34" subType="COMMANDED" timestamp="2022-09-06T02:05:01.899275Z">UNAVAILABLE</Position>
+          
+          <Load dataItemId="y4" name="Yload" sequence="36" timestamp="2022-09-06T02:05:01.899282Z">UNAVAILABLE</Load>
+          
+        </Samples>
+        
+        <Condition>
+          
+          <Unavailable dataItemId="Yloadc" sequence="37" timestamp="2022-09-06T02:05:01.899286Z" type="LOAD" />
+          
+          <Unavailable dataItemId="Ysystem" sequence="38" timestamp="2022-09-06T02:05:01.89929Z" type="SYSTEM" />
+          
+        </Condition>
+        
+      </ComponentStream>
+      
+      <ComponentStream component="Linear" name="Z" componentId="z1">
+        
+        <Samples>
+          
+          <Position dataItemId="z2" name="Zact" sequence="21" subType="ACTUAL" timestamp="2022-09-06T02:05:01.899216Z">UNAVAILABLE</Position>
+          
+          <Position dataItemId="z3" name="Zcom" sequence="39" subType="COMMANDED" timestamp="2022-09-06T02:05:01.899294Z">UNAVAILABLE</Position>
+          
+          <Load dataItemId="z4" name="Zload" sequence="17" timestamp="2022-09-06T02:05:01.899184Z">UNAVAILABLE</Load>
+          
+        </Samples>
+        
+        <Condition>
+          
+          <Unavailable dataItemId="Zloadc" sequence="40" timestamp="2022-09-06T02:05:01.899299Z" type="LOAD" />
+          
+          <Unavailable dataItemId="Zsystem" sequence="41" timestamp="2022-09-06T02:05:01.899302Z" type="SYSTEM" />
+          
+        </Condition>
+        
+      </ComponentStream>
+      
+    </DeviceStream>
+    
+  </Streams>
+  
+</MTConnectStreams>

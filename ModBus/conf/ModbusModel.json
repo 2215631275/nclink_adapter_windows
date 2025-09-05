@@ -1,0 +1,269 @@
+{
+  "id": "01",
+  "type": "NC_LINK_ROOT",
+  "name": "数控机床模型文件",
+  "description": "A NC_LINK instance given by NC_LINK Group",
+  "version": "1.1.0",
+  "devices": [
+    {
+      "id": "0103",
+      "name": "数控机床",
+      "type": "MACHINE",
+      "description": "数控机床",
+      "version": "1.0",
+      "configs": [
+        {
+          "id": "010301",
+          "type": "TYPE",
+          "name": "机床类型"
+        },
+        {
+          "id": "sample_channel0",
+          "type": "SAMPLE_CHANNEL",
+          "name": "采样通道",
+          "sampleInterval": 500,
+          "uploadInterval": 2000,
+          "ids": [
+            {
+              "id": "010302"
+            },
+            {
+              "id": "010303"
+            },
+            {
+              "id": "010305"
+            },
+            {
+              "id": "010306"
+            }
+          ]
+        }
+      ],
+      "dataItems": [
+        {
+          "id": "010302",
+          "name": "COIL_STATUS(RW)",
+          "type": "STATUS",
+          "datatype": "BIT",
+		      "description":"single coil read or write",
+          "value": 0,
+          "setable": true,
+          "methods": [
+            {
+              "method": "read",
+              "functioncode": 1,
+              "registertype": "coils",
+              "address": 100,
+              "number": 1,
+              "datatype": "BIT",
+              "endianness": "big_endian"
+            },
+            {
+              "method": "write",
+              "functioncode": 5,
+              "registertype": "coils",
+              "address": 100,
+              "number": 1,
+              "datatype": "BIT",
+              "endianness": "big_endian"
+            }
+          ]
+        },
+		{
+          "id": "010303",
+          "name": "COIL_STATUS(RW)",
+          "type": "STATUS",
+          "datatype": "LIST",
+		      "description":"multiple coils read or write",
+          "value": 0,
+          "setable": true,
+          "methods": [
+            {
+              "method": "read",
+              "functioncode": 1,
+              "registertype": "coils",
+              "address": 100,
+              "number": 8,
+              "datatype": "BIT",
+              "endianness": "big_endian"
+            },
+            {
+              "method": "write",
+              "functioncode": 15,
+              "registertype": "coils",
+              "address": 100,
+              "number": 8,
+              "datatype": "BIT",
+              "endianness": "big_endian"
+            }
+          ]
+        },
+        {
+          "id": "010304",
+          "name": "DISPERSION_INPUT(RO)",
+          "type": "FEED_SPEED",
+		      "description":"single dispersion_input read",
+          "datatype": "BIT",
+          "value": 0,
+          "setable": false,
+          "methods": [
+            {
+              "method": "read",
+              "functioncode": 2,
+              "registertype": "dispersion_input",
+              "address": 100,
+              "number": 1,
+              "datatype": "BIT",
+              "endianness": "big_endian"
+            }
+          ]
+        },
+        {
+          "id": "010305",
+          "name": "HOLD_REGISTER(RW)",
+          "type": "FEED_OVERRIDE",
+          "datatype": "UINT16",
+		      "description":"single register read or write",
+          "value": 0,
+		      "setable": true,
+          "methods": [
+            {
+              "method": "read",
+              "functioncode": 3,
+              "registertype": "hold_register",
+              "address": 103,
+              "number": 2,
+              "datatype": "INT32",
+              "endianness": "big_endian"
+            },
+            {
+              "method": "write",
+              "functioncode": 16,
+              "registertype": "hold_register",
+              "address": 103,
+              "number": 2,
+              "datatype": "INT32",
+              "endianness": "big_endian"
+            }
+          ]
+          
+        },
+        {
+          "id": "010306",
+          "name": "HOLD_REGISTER(RW)",
+          "type": "FEED_OVERRIDE",
+          "datatype": "LIST",
+          "description": "tests writing and reading 32-bit float",
+          "value": 0,
+          "setable": true,
+          "methods": [
+            {
+              "method": "read",
+              "functioncode": 3,
+              "registertype": "hold_register",
+              "address": 105,
+              "number": 2,
+              "datatype": "FLOAT",
+              "endianness": "big_endian"
+            },
+            {
+              "method": "write",
+              "functioncode": 16,
+              "registertype": "hold_register",
+              "address": 105,
+              "number": 2,
+              "datatype": "FLOAT",
+              "endianness": "big_endian"
+            }
+          ]
+
+        },
+        {
+          "id": "010307",
+          "name": "INPUT_REGISTER(RO)",
+          "type": "SPDL_OVERRIDE",
+          "datatype": "UINT16",
+          "value": 0,
+          "setable": false,
+          "methods": [
+            {
+              "method": "read",
+              "functioncode": 4,
+              "registertype": "input_register",
+              "address": 100,
+              "number": 1,
+              "datatype": "UINT16",
+              "endianness": "big_endian"
+            }
+          ]
+        },
+        {
+          "id": "010308",
+          "name": "HOLD_REGISTER(RW)",
+          "type": "FEED_OVERRIDE",
+          "datatype": "LIST",
+          "description": "tests writing and reading multiple registers",
+          "value": 0,
+          "setable": true,
+          "methods": [
+            {
+              "method": "read",
+              "functioncode": 3,
+              "registertype": "hold_register",
+              "address": 110,
+              "number": 5,
+              "datatype": "LIST",
+              "endianness": "big_endian" 
+            },
+            {
+              "method": "write",
+              "functioncode": 16, 
+              "registertype": "hold_register", 
+              "address": 200,
+              "number": 5,
+              "datatype": "LIST",
+              "endianness": "big_endian"
+            }
+          ]
+
+        }
+      ],
+      "components": [
+        {
+          "id": "010306",
+          "name": "传感器",
+          "type": "SENSOR",
+          "description": "",
+          "configs": [
+            {
+              "id": "01030601",
+              "name": "传感器类型",
+              "type": "TYPE",
+              "value": "温湿度传感器"
+            }
+          ],
+          "dataItems": [
+            {
+              "id": "01030602",
+              "name": "温度",
+              "type": "TEMPERATURE",
+              "address": 0,
+              "number": 0,
+              "datatype": "BIT",
+              "value": null
+            },
+            {
+              "id": "01030603",
+              "name": "湿度",
+              "type": "CONCENTRATION",
+              "address": 0,
+              "number": 0,
+              "datatype": "BIT",
+              "value": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

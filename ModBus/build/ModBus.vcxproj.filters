@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ActionListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\CallBack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\DeviceModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ErrorReason.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ModbusAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ModbusInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ParseXmlStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ProbeQueryRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ProbeSetRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ProbeVersionResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\ProcessJsonData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\QueryRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\RegisterResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\Sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\SetRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\src\pcap_to_flow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\thirdparty\pugixml\pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\thirdparty\modbuslib\modbus-data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\thirdparty\modbuslib\modbus-tcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\thirdparty\modbuslib\modbus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\(test) nc-link-adapter-adapter_with_ca_windows\ModBus\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D76618AA-5E6E-3F2C-A7E1-1C4DD4D19718}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

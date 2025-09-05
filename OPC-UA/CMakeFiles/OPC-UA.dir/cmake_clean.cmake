@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/OPC-UA.dir/src/ActionListener.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/ActionListener.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/CallBack.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/CallBack.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/Config.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/Config.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/OPCUAAdapter.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/OPCUAAdapter.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/OPCUAInterface.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/OPCUAInterface.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/ParseXmlStream.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/ParseXmlStream.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/ProbeQueryRequest.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/ProbeQueryRequest.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/ProbeSetRequest.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/ProbeSetRequest.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/ProbeVersionResponse.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/ProbeVersionResponse.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/ProcessJsonData.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/ProcessJsonData.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/QueryRequest.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/QueryRequest.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/RegisterResponse.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/RegisterResponse.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/SetRequest.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/SetRequest.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/Utils.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/Utils.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/main.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/main.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/src/tools.cpp.o"
+  "CMakeFiles/OPC-UA.dir/src/tools.cpp.o.d"
+  "CMakeFiles/OPC-UA.dir/thirdparty/pugixml/pugixml.cpp.o"
+  "CMakeFiles/OPC-UA.dir/thirdparty/pugixml/pugixml.cpp.o.d"
+  "OPC-UA"
+  "OPC-UA.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/OPC-UA.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

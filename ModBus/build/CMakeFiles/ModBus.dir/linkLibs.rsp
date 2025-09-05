@@ -1,0 +1,1 @@
+  -L"D:/(test) nc-link-adapter-adapter_with_ca_windows/ModBus/thirdparty/mqtt"  -lpaho-mqttpp3-static -lpaho-mqtt3a -lpaho-mqtt3c -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
